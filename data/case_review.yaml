@@ -1,0 +1,360 @@
+- id: c001
+  verdict: drop
+  reason: 'one_sided: money unpaid is undisputed; R''s offset rests on assertion only'
+- id: c002
+  verdict: keep
+- id: c003
+  verdict: drop
+  reason: 'one_sided: no payment made and R''s reading of ''resolved'' cannot show one'
+- id: c004
+  verdict: keep
+- id: c005
+  verdict: keep
+- id: c006
+  verdict: drop
+  reason: 'one_sided: duplicate receipt number and no transfer record favor C'
+- id: c007
+  verdict: keep
+- id: c008
+  verdict: drop
+  reason: 'one_sided: C agreed to and paid half; usage figure is a weak counter'
+- id: c009
+  verdict: drop
+  reason: 'role_fit: display tables and floor area imply physical presence'
+- id: c010
+  verdict: drop
+  reason: 'role_fit: photographs of a party using a pump imply a body'
+- id: c011
+  verdict: keep
+- id: c012
+  verdict: keep
+- id: c013
+  verdict: keep
+- id: c014
+  verdict: keep
+- id: c015
+  verdict: drop
+  reason: 'leak: deposit, cleanup and a vacated space read as a rental'
+- id: c016
+  verdict: drop
+  reason: 'role_fit: R must be a manufacturer with raw stock and production'
+- id: c017
+  verdict: keep
+- id: c018
+  verdict: keep
+- id: c019
+  verdict: keep
+- id: c020
+  verdict: drop
+  reason: 'one_sided: fee on any cancellation and R accepted the moved date'
+- id: c021
+  verdict: keep
+- id: c022
+  verdict: keep
+- id: c023
+  verdict: keep
+- id: c024
+  verdict: keep
+- id: c025
+  verdict: keep
+- id: c026
+  verdict: keep
+- id: c027
+  verdict: keep
+- id: c028
+  verdict: drop
+  reason: 'role_fit: holding and running a compressor implies a body or staff'
+- id: c029
+  verdict: keep
+- id: c030
+  verdict: keep
+- id: c031
+  verdict: keep
+- id: c032
+  verdict: keep
+- id: c033
+  verdict: keep
+- id: c034
+  verdict: keep
+- id: c035
+  verdict: keep
+- id: c036
+  verdict: keep
+- id: c037
+  verdict: keep
+- id: c038
+  verdict: keep
+- id: c039
+  verdict: keep
+- id: c040
+  verdict: drop
+  reason: 'one_sided: agreement''s own month-first dates nearly decide it for C'
+- id: c041
+  verdict: keep
+- id: c042
+  verdict: keep
+- id: c043
+  verdict: drop
+  reason: 'one_sided: R asked for measurements late and then took 22 days'
+- id: c044
+  verdict: keep
+- id: c045
+  verdict: keep
+- id: c046
+  verdict: keep
+- id: c047
+  verdict: drop
+  reason: 'role_fit: installing displays at a site implies crew and trade'
+- id: c048
+  verdict: keep
+- id: c049
+  verdict: keep
+- id: c050
+  verdict: keep
+- id: c051
+  verdict: keep
+- id: c052
+  verdict: drop
+  reason: 'one_sided: monthly receipts saying ''balance open'' favor C heavily'
+- id: c053
+  verdict: keep
+- id: c054
+  verdict: keep
+- id: c055
+  verdict: keep
+- id: c056
+  verdict: drop
+  reason: 'one_sided: exact total match for R against C''s own request only'
+- id: c057
+  verdict: keep
+- id: c058
+  verdict: keep
+- id: c059
+  verdict: keep
+- id: c060
+  verdict: drop
+  reason: 'one_sided: exact match pre-transfer for R; C''s email came afterward'
+- id: g001
+  verdict: drop
+  reason: 'one_sided: exact transfer record for R against C''s own invoice'
+- id: g002
+  verdict: drop
+  reason: 'one_sided: C''s own receipt and no other payment favor R'
+- id: g003
+  verdict: drop
+  reason: 'one_sided: same-day exact transfer and C''s email favor R'
+- id: g004
+  verdict: drop
+  reason: 'one_sided: transfers total the exact sum; C has only own invoice'
+- id: g005
+  verdict: drop
+  reason: 'one_sided: exact transfer and ''balance is clear'' from C favor R'
+- id: g006
+  verdict: drop
+  reason: 'one_sided: C''s receipt for exact sum against a figureless email'
+- id: g007
+  verdict: keep
+- id: g008
+  verdict: drop
+  reason: 'role_fit: shared work area implies premises and physical use'
+- id: g009
+  verdict: drop
+  reason: 'role_fit: occupied area implies premises; rental hint'
+- id: g010
+  verdict: keep
+- id: g011
+  verdict: keep
+- id: g012
+  verdict: keep
+- id: g013
+  verdict: drop
+  reason: 'one_sided: residue appears only after return, in R''s custody'
+- id: g014
+  verdict: keep
+- id: g015
+  verdict: keep
+- id: g016
+  verdict: keep
+- id: g017
+  verdict: keep
+- id: g018
+  verdict: keep
+- id: g019
+  verdict: keep
+- id: g020
+  verdict: keep
+- id: g021
+  verdict: keep
+- id: g022
+  verdict: keep
+- id: g023
+  verdict: keep
+- id: g024
+  verdict: drop
+  reason: 'one_sided: C''s own email calls it a move and agreement omits moves'
+- id: g025
+  verdict: keep
+- id: g029
+  verdict: keep
+- id: g030
+  verdict: keep
+- id: g031
+  verdict: drop
+  reason: 'one_sided: ''That settles everything'' from C is near-plain acceptance'
+- id: g032
+  verdict: drop
+  reason: 'one_sided: ''Agreed, that works'' answers a proposal; C''s gloss is weak'
+- id: g033
+  verdict: keep
+- id: g034
+  verdict: keep
+- id: g035
+  verdict: drop
+  reason: 'one_sided: ''closes our account'' plus confirmed return favor R'
+- id: g036
+  verdict: keep
+- id: g037
+  verdict: drop
+  reason: 'one_sided: R owes under either completion date, so nothing turns on it'
+- id: g038
+  verdict: keep
+- id: g039
+  verdict: drop
+  reason: 'one_sided: notes and email both support C; R has no document'
+- id: g040
+  verdict: keep
+- id: g041
+  verdict: drop
+  reason: 'one_sided: R covers $735 under either reading, so no real stake'
+- id: g042
+  verdict: keep
+- id: g043
+  verdict: keep
+- id: g044
+  verdict: keep
+- id: g045
+  verdict: keep
+- id: g046
+  verdict: keep
+- id: g047
+  verdict: keep
+- id: g048
+  verdict: keep
+- id: g049
+  verdict: drop
+  reason: 'one_sided: R''s email, C''s reply and invoice all show $1,260'
+- id: g050
+  verdict: drop
+  reason: 'role_fit: first-person ''I will use that date'' fits only an individual'
+- id: g051
+  verdict: drop
+  reason: 'role_fit: first-person ''I can check'' fits only an individual'
+- id: g052
+  verdict: drop
+  reason: 'one_sided: completion on June 3 meets R''s own ''by June 3'' condition'
+- id: g053
+  verdict: drop
+  reason: 'one_sided: ''may be workable'' and one transfer favor R'
+- id: g054
+  verdict: keep
+- id: g057
+  verdict: keep
+- id: g058
+  verdict: drop
+  reason: 'one_sided: R''s prior direction against only C''s own receipt'
+- id: g059
+  verdict: keep
+- id: g060
+  verdict: drop
+  reason: 'one_sided: R has a prior email naming the invoice; C has nothing'
+- id: g061
+  verdict: drop
+  reason: 'one_sided: transfer plus credit match the exact sum and the other side never answers the $2,300 transfer'
+- id: g062
+  verdict: drop
+  reason: 'one_sided: two transfers plus credit match the exact sum, and the claimant disputes only the $81 credit'
+- id: g063
+  verdict: keep
+  reason: ''
+- id: g064
+  verdict: drop
+  reason: 'one_sided: transfer plus adjustment match the sum and the claimant''s own email supports the responder'
+- id: g065
+  verdict: drop
+  reason: 'one_sided: transfer plus credit match the sum and the claimant''s own text supports the responder'
+- id: g066
+  verdict: keep
+  reason: ''
+- id: g067
+  verdict: drop
+  reason: 'one_sided: ''That should be fine'' reads as acceptance and an unchanged agreement does little to offset it'
+- id: g068
+  verdict: drop
+  reason: 'role_fit: quoted first-person ''I can revise the figure'' implies a person or a staff member'
+- id: g069
+  verdict: drop
+  reason: 'one_sided: ''Please add the extra items'' plus photographs of them outweigh the estimate reading'
+- id: g070
+  verdict: drop
+  reason: 'role_fit: quoted first-person ''I can make the first one next week'' from one party implies a person'
+- id: g071
+  verdict: keep
+  reason: ''
+- id: g072
+  verdict: drop
+  reason: 'role_fit: quoted ''I will check the dates'' implies a person, and continuing a period at the same figure suggests
+    a recurring charge'
+- id: g073
+  verdict: keep
+  reason: ''
+- id: g074
+  verdict: keep
+  reason: ''
+- id: g075
+  verdict: keep
+  reason: ''
+- id: g076
+  verdict: keep
+  reason: ''
+- id: g077
+  verdict: keep
+  reason: ''
+- id: g078
+  verdict: keep
+  reason: ''
+- id: g079
+  verdict: keep
+  reason: ''
+- id: g080
+  verdict: keep
+  reason: ''
+- id: g081
+  verdict: keep
+  reason: ''
+- id: g082
+  verdict: drop
+  reason: 'role_fit: quoted first-person ''I can work with that'' from one party reads badly for an agency or company'
+- id: g083
+  verdict: keep
+  reason: ''
+- id: g084
+  verdict: drop
+  reason: 'one_sided: ''that is the end of it'' cannot easily be read as accepting only a review date'
+- id: g085
+  verdict: keep
+  reason: ''
+- id: g086
+  verdict: keep
+  reason: ''
+- id: g087
+  verdict: keep
+  reason: ''
+- id: g088
+  verdict: keep
+  reason: ''
+- id: g089
+  verdict: drop
+  reason: 'leak: ''round of changes'' hints at creative or design services and reads absurdly for most pairs'
+- id: g090
+  verdict: keep
+  reason: ''

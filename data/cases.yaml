@@ -1,0 +1,106 @@
+- id: c002
+  family: unpaid_amount
+  author: claude
+  text: An invoice dated April lists $1,125 due from {R} to {C}. {R} says the balance was settled in an email exchange that
+    closed out several items, and the email from {C} reads "remaining items closed." That email lists no items. {C} says the
+    amount stayed open, and a later invoice from {C} carried the same figure forward, with no written response from {R}.
+  screen_claimant_share: 0.75
+- id: c019
+  family: cancellation_fee
+  author: claude
+  text: '{R} charged {C} a $950 fee after {C} cancelled a planned series of deliveries by email. Their written agreement sets
+    a fee for cancelling "within ten days of the start date" and does not define that date. Meeting notes list a project start
+    nine days after the email, which supports {R}. Delivery records list the first scheduled delivery eleven days after the
+    email, which supports {C}.'
+  screen_claimant_share: 0.625
+- id: c027
+  family: damaged_item
+  author: claude
+  text: A delivery record shows a sealed crate going from {R} to {C}. Photographs taken when {C} opened the crate show a broken
+    lens on the projector inside and thin packing around it. {C} wants $3,180 from {R} for a replacement. {R} points out that
+    the delivery record notes no dents, and that the crate sat with {C} for five days before the photographs were taken.
+  screen_claimant_share: 0.625
+- id: c032
+  family: settlement_message
+  author: claude
+  text: The sum at issue between {C} and {R} was $2,740. {R} sent $1,600 by bank transfer with a text message reading "this
+    closes it," and {C} replied "received." {C} says that word only confirmed the transfer arrived. {R} says the reply accepted
+    the terms of the text, and invoices show {C} sent no further bill for four months.
+  screen_claimant_share: 0.5
+- id: c039
+  family: ambiguous_term
+  author: claude
+  text: Under their written agreement, {R} covers "equipment costs." {C} paid $1,355 for replacement filters and seeks that
+    sum from {R}. {R} reads the phrase as the purchase of machines only, and a separate line in the agreement lists "supplies"
+    without naming a party. {C} points to a bank-transfer record from the prior year showing {R} paid for filters, with no
+    explanation attached.
+  screen_claimant_share: 0.625
+- id: c051
+  family: informal_change
+  author: claude
+  text: '{C} emailed {R} "please drop the third stage," and {R} replied "noted." {C} says this removed $3,610 from the price
+    in their written agreement, and the next schedule from {R} omits the third stage. {R} says the price did not change, since
+    neither email mentions money and receipts show {R} had bought materials for that stage before the email arrived.'
+  screen_claimant_share: 0.714
+- id: c057
+  family: misapplied_payment
+  author: claude
+  text: '{C} sent {R} two invoices in May, $1,815 for materials and $455 for setup. {R} transferred $1,815, and the receipt
+    from {C} reads "received toward May invoices." {R} says the transfer covered everything, because a text from {C} offered
+    to drop the setup charge if the materials were paid on time. {C} says that text concerned a different setup planned for
+    June, and the text gives no month.'
+  screen_claimant_share: 0.625
+- id: g011
+  family: shared_expense
+  author: gpt-6-luna
+  text: '{C} says {C} paid $5,280 for a monthly service that both parties could access and asks {R} to pay half. {R} says
+    the emails proposed splitting costs by the number of months each party used the service. Access records show activity
+    by both parties in some months and by only one party in others. {C} says access remained available to both in every month,
+    and the emails do not define use.'
+  screen_claimant_share: 0.286
+- id: g016
+  family: deposit
+  author: gpt-6-luna
+  text: '{C} asks {R} to return a $3,700 deposit. {R} says the deposit was kept because the closing count showed one listed
+    item missing. {C} says meeting notes from the count list every item. The notes give a total number but do not identify
+    each item, and a photograph from the same date shows several items without showing the full group.'
+  screen_claimant_share: 0.375
+- id: g036
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} owes $890 for a service described in an invoice. {R} says a text message from {C} saying “We can leave
+    this here” settled the amount after a transfer. {C} says the message meant to pause further discussion until the payment
+    record was checked. A receipt shows funds were sent but does not identify the invoice, and the invoice remains marked
+    unpaid.'
+  screen_claimant_share: 0.625
+- id: g038
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $860 for costs beyond the allowance in their written agreement. The agreement refers to $600 for
+    each listed item in one section and to one total allowance in another. {C} reads the first phrase as controlling because
+    the invoice lists two items separately. {R} reads the second phrase as setting one limit for both. The invoice shows separate
+    amounts but no allocation rule.'
+  screen_claimant_share: 0.5
+- id: g043
+  family: missed_deadline
+  author: gpt-6-luna
+  text: '{C} says {R} missed a deadline to provide materials under their written agreement, delaying a $725 payment. {R} says
+    {C} sent the required specifications two days after the date stated in the agreement. {C} says the specifications were
+    already included in an earlier email. The email timestamps establish when each message was sent, but neither message states
+    whether the deadline changed.'
+  screen_claimant_share: 0.375
+- id: g066
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} has not paid $7,419 due under their written agreement. {R} says a transfer was made before the due date
+    and cites a bank-transfer record showing $7,419 sent to an account used for payments between {C} and {R}. {C} says the
+    transfer was returned the following day. The bank records show a reversal, but the entry does not identify which amount
+    the reversal concerned.'
+  screen_claimant_share: 0.375
+- id: g080
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says the $2,683 balance was settled after {C} asked in a text message whether the remaining matter could be closed.
+    {R} replied, “Yes, let’s call it even.” {R} says the reply addressed a different item discussed in an email that day.
+    The email lists that item but does not mention the balance, and the text message does not identify which matter was closed.'
+  screen_claimant_share: 0.5

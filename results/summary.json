@@ -1,0 +1,1644 @@
+{
+  "coding_check": {
+    "tenant_landlord": {
+      "cell": "power_company",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.5,
+          "neither": 0.5
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": false
+    },
+    "worker_employer": {
+      "cell": "power_company",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "patient_insurer": {
+      "cell": "power_company",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "customer_bank": {
+      "cell": "power_company",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 0.5,
+          "other": 0.0,
+          "neither": 0.5
+        }
+      },
+      "passed": true
+    },
+    "taxpayer_agency": {
+      "cell": "power_government",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        }
+      },
+      "passed": true
+    },
+    "resident_city": {
+      "cell": "power_government",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 0.0,
+          "other": 0.75,
+          "neither": 0.25
+        }
+      },
+      "passed": true
+    },
+    "rancher_agency": {
+      "cell": "power_government",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "recipient_agency": {
+      "cell": "power_government",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 0.75,
+          "other": 0.0,
+          "neither": 0.25
+        }
+      },
+      "passed": true
+    },
+    "guns": {
+      "cell": "politics",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.75,
+          "neither": 0.25
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "abortion": {
+      "cell": "politics",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "labor": {
+      "cell": "politics",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "climate": {
+      "cell": "politics",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "immigration": {
+      "cell": "politics",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 1.0,
+          "neither": 0.0
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "party": {
+      "cell": "politics",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        },
+        "left": {
+          "focus": 1.0,
+          "other": 0.0,
+          "neither": 0.0
+        }
+      },
+      "passed": true
+    },
+    "party_xy": {
+      "cell": "placebo",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        },
+        "left": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        }
+      },
+      "passed": true
+    },
+    "neighbors": {
+      "cell": "placebo",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        },
+        "left": {
+          "focus": 0.0,
+          "other": 0.5,
+          "neither": 0.5
+        }
+      },
+      "passed": false
+    },
+    "companies": {
+      "cell": "placebo",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        },
+        "left": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        }
+      },
+      "passed": true
+    },
+    "co_owners": {
+      "cell": "placebo",
+      "shares": {
+        "power": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        },
+        "left": {
+          "focus": 0.0,
+          "other": 0.0,
+          "neither": 1.0
+        }
+      },
+      "passed": true
+    }
+  },
+  "failed_codes": [
+    "tenant_landlord",
+    "neighbors"
+  ],
+  "politics_no_power_gap_pairs": [
+    "abortion",
+    "labor",
+    "party"
+  ],
+  "models": {
+    "gpt": {
+      "calls": 504,
+      "design_problems": {
+        "missing": 0,
+        "duplicates": 0,
+        "unknown": 0
+      },
+      "status": {
+        "valid": 504
+      },
+      "returned_models": {
+        "gpt-6.1-sol": 504
+      },
+      "hosts": {
+        "None": 504
+      },
+      "effects": {
+        "power_company": {
+          "value": 0.17857142857142855,
+          "points": 17.9,
+          "ci95": [
+            7.1,
+            31.2
+          ],
+          "p": 0.0005
+        },
+        "power_government": {
+          "value": 0.10714285714285715,
+          "points": 10.7,
+          "ci95": [
+            -0.9,
+            24.1
+          ],
+          "p": 0.0985
+        },
+        "politics": {
+          "value": 0.047619047619047616,
+          "points": 4.8,
+          "ci95": [
+            -1.2,
+            13.1
+          ],
+          "p": 0.1455,
+          "p_holm": 0.6425000000000001,
+          "supported": false
+        },
+        "placebo": {
+          "value": -0.008928571428571428,
+          "points": -0.9,
+          "ci95": [
+            -11.6,
+            8.9
+          ],
+          "p": 0.952
+        },
+        "power": {
+          "value": 0.14285714285714285,
+          "points": 14.3,
+          "ci95": [
+            4.5,
+            25.9
+          ],
+          "p": 0.0015,
+          "p_holm": 0.0105,
+          "supported": true
+        }
+      },
+      "pairs": {
+        "tenant_landlord": {
+          "cell": "power_company",
+          "focus_win_rate": 64.3,
+          "valid": 28
+        },
+        "worker_employer": {
+          "cell": "power_company",
+          "focus_win_rate": 78.6,
+          "valid": 28
+        },
+        "patient_insurer": {
+          "cell": "power_company",
+          "focus_win_rate": 67.9,
+          "valid": 28
+        },
+        "customer_bank": {
+          "cell": "power_company",
+          "focus_win_rate": 60.7,
+          "valid": 28
+        },
+        "taxpayer_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 53.6,
+          "valid": 28
+        },
+        "resident_city": {
+          "cell": "power_government",
+          "focus_win_rate": 67.9,
+          "valid": 28
+        },
+        "rancher_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 53.6,
+          "valid": 28
+        },
+        "recipient_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 67.9,
+          "valid": 28
+        },
+        "guns": {
+          "cell": "politics",
+          "focus_win_rate": 57.1,
+          "valid": 28
+        },
+        "abortion": {
+          "cell": "politics",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "labor": {
+          "cell": "politics",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "climate": {
+          "cell": "politics",
+          "focus_win_rate": 64.3,
+          "valid": 28
+        },
+        "immigration": {
+          "cell": "politics",
+          "focus_win_rate": 57.1,
+          "valid": 28
+        },
+        "party": {
+          "cell": "politics",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "party_xy": {
+          "cell": "placebo",
+          "focus_win_rate": 42.9,
+          "valid": 28
+        },
+        "neighbors": {
+          "cell": "placebo",
+          "focus_win_rate": 53.6,
+          "valid": 28
+        },
+        "companies": {
+          "cell": "placebo",
+          "focus_win_rate": 60.7,
+          "valid": 28
+        },
+        "co_owners": {
+          "cell": "placebo",
+          "focus_win_rate": 39.3,
+          "valid": 28
+        }
+      },
+      "invalid": {
+        "placebo:focus_claims": 0.0,
+        "placebo:other_claims": 0.0,
+        "politics:focus_claims": 0.0,
+        "politics:other_claims": 0.0,
+        "power_company:focus_claims": 0.0,
+        "power_company:other_claims": 0.0,
+        "power_government:focus_claims": 0.0,
+        "power_government:other_claims": 0.0
+      },
+      "placebo_abs_mean": 0.08035714285714285,
+      "placebo_warning": false,
+      "claimant_win_rate": 0.4583,
+      "first_listed_win_rate": 0.498,
+      "role_follow_excess": {
+        "power_company": {
+          "points": 19.6,
+          "ci95": [
+            -3.6,
+            44.6
+          ]
+        },
+        "power_government": {
+          "points": 16.1,
+          "ci95": [
+            -8.9,
+            39.3
+          ]
+        },
+        "politics": {
+          "points": -1.8,
+          "ci95": [
+            -16.7,
+            11.3
+          ]
+        }
+      },
+      "role_follow_placebo": 16.1,
+      "sensitivity": {
+        "author:claude": {
+          "power": 19.6,
+          "politics": 3.6,
+          "power_company": 19.6,
+          "power_government": 19.6
+        },
+        "author:gpt-6-luna": {
+          "power": 8.9,
+          "politics": 6.0,
+          "power_company": 16.1,
+          "power_government": 1.8
+        },
+        "family:ambiguous_term": {
+          "power": 21.9,
+          "politics": 0.0,
+          "power_company": 31.2,
+          "power_government": 12.5
+        },
+        "family:cancellation_fee": {
+          "power": 43.8,
+          "politics": 0.0,
+          "power_company": 37.5,
+          "power_government": 50.0
+        },
+        "family:damaged_item": {
+          "power": 50.0,
+          "politics": 16.7,
+          "power_company": 50.0,
+          "power_government": 50.0
+        },
+        "family:deposit": {
+          "power": 6.2,
+          "politics": 16.7,
+          "power_company": 25.0,
+          "power_government": -12.5
+        },
+        "family:informal_change": {
+          "power": 6.2,
+          "politics": -8.3,
+          "power_company": 12.5,
+          "power_government": 0.0
+        },
+        "family:misapplied_payment": {
+          "power": 6.2,
+          "politics": 0.0,
+          "power_company": 0.0,
+          "power_government": 12.5
+        },
+        "family:missed_deadline": {
+          "power": 18.8,
+          "politics": 25.0,
+          "power_company": 37.5,
+          "power_government": 0.0
+        },
+        "family:settlement_message": {
+          "power": 0.0,
+          "politics": 2.8,
+          "power_company": 0.0,
+          "power_government": 0.0
+        },
+        "family:shared_expense": {
+          "power": 0.0,
+          "politics": 0.0,
+          "power_company": 0.0,
+          "power_government": 0.0
+        },
+        "family:unpaid_amount": {
+          "power": 12.5,
+          "politics": 4.2,
+          "power_company": 12.5,
+          "power_government": 12.5
+        },
+        "without:tenant_landlord": {
+          "power": 14.9,
+          "politics": 4.8
+        },
+        "without:worker_employer": {
+          "power": 12.5,
+          "politics": 4.8
+        },
+        "without:patient_insurer": {
+          "power": 14.3,
+          "politics": 4.8
+        },
+        "without:customer_bank": {
+          "power": 15.5,
+          "politics": 4.8
+        },
+        "without:taxpayer_agency": {
+          "power": 15.5,
+          "politics": 4.8
+        },
+        "without:resident_city": {
+          "power": 13.1,
+          "politics": 4.8
+        },
+        "without:rancher_agency": {
+          "power": 15.5,
+          "politics": 4.8
+        },
+        "without:recipient_agency": {
+          "power": 13.1,
+          "politics": 4.8
+        },
+        "without:guns": {
+          "power": 14.3,
+          "politics": 4.3
+        },
+        "without:abortion": {
+          "power": 14.3,
+          "politics": 5.7
+        },
+        "without:labor": {
+          "power": 14.3,
+          "politics": 5.7
+        },
+        "without:climate": {
+          "power": 14.3,
+          "politics": 2.9
+        },
+        "without:immigration": {
+          "power": 14.3,
+          "politics": 4.3
+        },
+        "without:party": {
+          "power": 14.3,
+          "politics": 5.7
+        },
+        "politics_no_power_gap": 0.0,
+        "without_failed_codes": {
+          "power": 14.9,
+          "politics": 4.8,
+          "power_company": 19.0,
+          "power_government": 10.7
+        }
+      }
+    },
+    "claude": {
+      "calls": 504,
+      "design_problems": {
+        "missing": 0,
+        "duplicates": 0,
+        "unknown": 0
+      },
+      "status": {
+        "valid": 504
+      },
+      "returned_models": {
+        "claude-opus-5": 504
+      },
+      "hosts": {
+        "None": 504
+      },
+      "effects": {
+        "power_company": {
+          "value": 0.30357142857142855,
+          "points": 30.4,
+          "ci95": [
+            17.9,
+            41.1
+          ],
+          "p": 0.0005
+        },
+        "power_government": {
+          "value": 0.29464285714285715,
+          "points": 29.5,
+          "ci95": [
+            15.2,
+            42.0
+          ],
+          "p": 0.0005
+        },
+        "politics": {
+          "value": 0.10714285714285715,
+          "points": 10.7,
+          "ci95": [
+            2.4,
+            20.8
+          ],
+          "p": 0.0145,
+          "p_holm": 0.08700000000000001,
+          "supported": false
+        },
+        "placebo": {
+          "value": -0.017857142857142856,
+          "points": -1.8,
+          "ci95": [
+            -10.7,
+            6.2
+          ],
+          "p": 0.703
+        },
+        "power": {
+          "value": 0.29910714285714285,
+          "points": 29.9,
+          "ci95": [
+            19.2,
+            39.7
+          ],
+          "p": 0.0005,
+          "p_holm": 0.004,
+          "supported": true
+        }
+      },
+      "pairs": {
+        "tenant_landlord": {
+          "cell": "power_company",
+          "focus_win_rate": 75.0,
+          "valid": 28
+        },
+        "worker_employer": {
+          "cell": "power_company",
+          "focus_win_rate": 89.3,
+          "valid": 28
+        },
+        "patient_insurer": {
+          "cell": "power_company",
+          "focus_win_rate": 78.6,
+          "valid": 28
+        },
+        "customer_bank": {
+          "cell": "power_company",
+          "focus_win_rate": 78.6,
+          "valid": 28
+        },
+        "taxpayer_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 67.9,
+          "valid": 28
+        },
+        "resident_city": {
+          "cell": "power_government",
+          "focus_win_rate": 82.1,
+          "valid": 28
+        },
+        "rancher_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 78.6,
+          "valid": 28
+        },
+        "recipient_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 89.3,
+          "valid": 28
+        },
+        "guns": {
+          "cell": "politics",
+          "focus_win_rate": 60.7,
+          "valid": 28
+        },
+        "abortion": {
+          "cell": "politics",
+          "focus_win_rate": 60.7,
+          "valid": 28
+        },
+        "labor": {
+          "cell": "politics",
+          "focus_win_rate": 53.6,
+          "valid": 28
+        },
+        "climate": {
+          "cell": "politics",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "immigration": {
+          "cell": "politics",
+          "focus_win_rate": 67.9,
+          "valid": 28
+        },
+        "party": {
+          "cell": "politics",
+          "focus_win_rate": 71.4,
+          "valid": 28
+        },
+        "party_xy": {
+          "cell": "placebo",
+          "focus_win_rate": 57.1,
+          "valid": 28
+        },
+        "neighbors": {
+          "cell": "placebo",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "companies": {
+          "cell": "placebo",
+          "focus_win_rate": 42.9,
+          "valid": 28
+        },
+        "co_owners": {
+          "cell": "placebo",
+          "focus_win_rate": 42.9,
+          "valid": 28
+        }
+      },
+      "invalid": {
+        "placebo:focus_claims": 0.0,
+        "placebo:other_claims": 0.0,
+        "politics:focus_claims": 0.0,
+        "politics:other_claims": 0.0,
+        "power_company:focus_claims": 0.0,
+        "power_company:other_claims": 0.0,
+        "power_government:focus_claims": 0.0,
+        "power_government:other_claims": 0.0
+      },
+      "placebo_abs_mean": 0.05357142857142857,
+      "placebo_warning": false,
+      "claimant_win_rate": 0.5258,
+      "first_listed_win_rate": 0.5417,
+      "role_follow_excess": {
+        "power_company": {
+          "points": 46.4,
+          "ci95": [
+            17.9,
+            73.2
+          ]
+        },
+        "power_government": {
+          "points": 48.2,
+          "ci95": [
+            19.6,
+            73.2
+          ]
+        },
+        "politics": {
+          "points": 16.7,
+          "ci95": [
+            -7.2,
+            39.3
+          ]
+        }
+      },
+      "role_follow_placebo": 14.3,
+      "sensitivity": {
+        "author:claude": {
+          "power": 26.8,
+          "politics": 8.3,
+          "power_company": 26.8,
+          "power_government": 26.8
+        },
+        "author:gpt-6-luna": {
+          "power": 33.0,
+          "politics": 13.1,
+          "power_company": 33.9,
+          "power_government": 32.1
+        },
+        "family:ambiguous_term": {
+          "power": 37.5,
+          "politics": 12.5,
+          "power_company": 37.5,
+          "power_government": 37.5
+        },
+        "family:cancellation_fee": {
+          "power": 37.5,
+          "politics": 0.0,
+          "power_company": 25.0,
+          "power_government": 50.0
+        },
+        "family:damaged_item": {
+          "power": 50.0,
+          "politics": 16.7,
+          "power_company": 50.0,
+          "power_government": 50.0
+        },
+        "family:deposit": {
+          "power": 0.0,
+          "politics": 8.3,
+          "power_company": 0.0,
+          "power_government": 0.0
+        },
+        "family:informal_change": {
+          "power": 12.5,
+          "politics": 25.0,
+          "power_company": 12.5,
+          "power_government": 12.5
+        },
+        "family:misapplied_payment": {
+          "power": 50.0,
+          "politics": 16.7,
+          "power_company": 50.0,
+          "power_government": 50.0
+        },
+        "family:missed_deadline": {
+          "power": 50.0,
+          "politics": 25.0,
+          "power_company": 50.0,
+          "power_government": 50.0
+        },
+        "family:settlement_message": {
+          "power": 29.2,
+          "politics": 2.8,
+          "power_company": 41.7,
+          "power_government": 16.7
+        },
+        "family:shared_expense": {
+          "power": 18.8,
+          "politics": 0.0,
+          "power_company": 12.5,
+          "power_government": 25.0
+        },
+        "family:unpaid_amount": {
+          "power": 18.8,
+          "politics": 12.5,
+          "power_company": 12.5,
+          "power_government": 25.0
+        },
+        "without:tenant_landlord": {
+          "power": 30.8,
+          "politics": 10.7
+        },
+        "without:worker_employer": {
+          "power": 28.4,
+          "politics": 10.7
+        },
+        "without:patient_insurer": {
+          "power": 30.2,
+          "politics": 10.7
+        },
+        "without:customer_bank": {
+          "power": 30.2,
+          "politics": 10.7
+        },
+        "without:taxpayer_agency": {
+          "power": 31.8,
+          "politics": 10.7
+        },
+        "without:resident_city": {
+          "power": 29.5,
+          "politics": 10.7
+        },
+        "without:rancher_agency": {
+          "power": 30.1,
+          "politics": 10.7
+        },
+        "without:recipient_agency": {
+          "power": 28.3,
+          "politics": 10.7
+        },
+        "without:guns": {
+          "power": 29.9,
+          "politics": 10.7
+        },
+        "without:abortion": {
+          "power": 29.9,
+          "politics": 10.7
+        },
+        "without:labor": {
+          "power": 29.9,
+          "politics": 12.1
+        },
+        "without:climate": {
+          "power": 29.9,
+          "politics": 12.9
+        },
+        "without:immigration": {
+          "power": 29.9,
+          "politics": 9.3
+        },
+        "without:party": {
+          "power": 29.9,
+          "politics": 8.6
+        },
+        "politics_no_power_gap": 11.9,
+        "without_failed_codes": {
+          "power": 30.8,
+          "politics": 10.7,
+          "power_company": 32.1,
+          "power_government": 29.5
+        }
+      }
+    },
+    "glm": {
+      "calls": 504,
+      "design_problems": {
+        "missing": 0,
+        "duplicates": 0,
+        "unknown": 0
+      },
+      "status": {
+        "valid": 504
+      },
+      "returned_models": {
+        "z-ai/glm-5.3": 504
+      },
+      "hosts": {
+        "Wafer": 504
+      },
+      "effects": {
+        "power_company": {
+          "value": 0.12499999999999999,
+          "points": 12.5,
+          "ci95": [
+            0.0,
+            25.0
+          ],
+          "p": 0.0515
+        },
+        "power_government": {
+          "value": 0.026785714285714288,
+          "points": 2.7,
+          "ci95": [
+            -10.7,
+            17.9
+          ],
+          "p": 0.755
+        },
+        "politics": {
+          "value": 0.0,
+          "points": 0.0,
+          "ci95": [
+            -11.3,
+            11.9
+          ],
+          "p": 1.0,
+          "p_holm": 1.0,
+          "supported": false
+        },
+        "placebo": {
+          "value": -0.03571428571428571,
+          "points": -3.6,
+          "ci95": [
+            -11.6,
+            4.5
+          ],
+          "p": 0.4195
+        },
+        "power": {
+          "value": 0.07589285714285714,
+          "points": 7.6,
+          "ci95": [
+            -2.2,
+            17.9
+          ],
+          "p": 0.1285,
+          "p_holm": 0.6425000000000001,
+          "supported": false
+        }
+      },
+      "pairs": {
+        "tenant_landlord": {
+          "cell": "power_company",
+          "focus_win_rate": 53.6,
+          "valid": 28
+        },
+        "worker_employer": {
+          "cell": "power_company",
+          "focus_win_rate": 64.3,
+          "valid": 28
+        },
+        "patient_insurer": {
+          "cell": "power_company",
+          "focus_win_rate": 67.9,
+          "valid": 28
+        },
+        "customer_bank": {
+          "cell": "power_company",
+          "focus_win_rate": 64.3,
+          "valid": 28
+        },
+        "taxpayer_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 46.4,
+          "valid": 28
+        },
+        "resident_city": {
+          "cell": "power_government",
+          "focus_win_rate": 53.6,
+          "valid": 28
+        },
+        "rancher_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 42.9,
+          "valid": 28
+        },
+        "recipient_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 67.9,
+          "valid": 28
+        },
+        "guns": {
+          "cell": "politics",
+          "focus_win_rate": 60.7,
+          "valid": 28
+        },
+        "abortion": {
+          "cell": "politics",
+          "focus_win_rate": 42.9,
+          "valid": 28
+        },
+        "labor": {
+          "cell": "politics",
+          "focus_win_rate": 60.7,
+          "valid": 28
+        },
+        "climate": {
+          "cell": "politics",
+          "focus_win_rate": 46.4,
+          "valid": 28
+        },
+        "immigration": {
+          "cell": "politics",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "party": {
+          "cell": "politics",
+          "focus_win_rate": 39.3,
+          "valid": 28
+        },
+        "party_xy": {
+          "cell": "placebo",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "neighbors": {
+          "cell": "placebo",
+          "focus_win_rate": 50.0,
+          "valid": 28
+        },
+        "companies": {
+          "cell": "placebo",
+          "focus_win_rate": 42.9,
+          "valid": 28
+        },
+        "co_owners": {
+          "cell": "placebo",
+          "focus_win_rate": 42.9,
+          "valid": 28
+        }
+      },
+      "invalid": {
+        "placebo:focus_claims": 0.0,
+        "placebo:other_claims": 0.0,
+        "politics:focus_claims": 0.0,
+        "politics:other_claims": 0.0,
+        "power_company:focus_claims": 0.0,
+        "power_company:other_claims": 0.0,
+        "power_government:focus_claims": 0.0,
+        "power_government:other_claims": 0.0
+      },
+      "placebo_abs_mean": 0.03571428571428571,
+      "placebo_warning": false,
+      "claimant_win_rate": 0.5337,
+      "first_listed_win_rate": 0.506,
+      "role_follow_excess": {
+        "power_company": {
+          "points": 21.4,
+          "ci95": [
+            -7.1,
+            46.4
+          ]
+        },
+        "power_government": {
+          "points": 19.6,
+          "ci95": [
+            -5.4,
+            41.1
+          ]
+        },
+        "politics": {
+          "points": 22.6,
+          "ci95": [
+            -1.2,
+            46.4
+          ]
+        }
+      },
+      "role_follow_placebo": 17.9,
+      "sensitivity": {
+        "author:claude": {
+          "power": 4.5,
+          "politics": 1.2,
+          "power_company": 7.1,
+          "power_government": 1.8
+        },
+        "author:gpt-6-luna": {
+          "power": 10.7,
+          "politics": -1.2,
+          "power_company": 17.9,
+          "power_government": 3.6
+        },
+        "family:ambiguous_term": {
+          "power": 9.4,
+          "politics": 0.0,
+          "power_company": 6.2,
+          "power_government": 12.5
+        },
+        "family:cancellation_fee": {
+          "power": 18.8,
+          "politics": 0.0,
+          "power_company": 25.0,
+          "power_government": 12.5
+        },
+        "family:damaged_item": {
+          "power": 31.2,
+          "politics": 16.7,
+          "power_company": 37.5,
+          "power_government": 25.0
+        },
+        "family:deposit": {
+          "power": -12.5,
+          "politics": -8.3,
+          "power_company": 0.0,
+          "power_government": -25.0
+        },
+        "family:informal_change": {
+          "power": -6.2,
+          "politics": 0.0,
+          "power_company": -12.5,
+          "power_government": 0.0
+        },
+        "family:misapplied_payment": {
+          "power": -6.2,
+          "politics": -25.0,
+          "power_company": -25.0,
+          "power_government": 12.5
+        },
+        "family:missed_deadline": {
+          "power": 31.2,
+          "politics": 16.7,
+          "power_company": 50.0,
+          "power_government": 12.5
+        },
+        "family:settlement_message": {
+          "power": 4.2,
+          "politics": 0.0,
+          "power_company": 12.5,
+          "power_government": -4.2
+        },
+        "family:shared_expense": {
+          "power": 6.2,
+          "politics": -16.7,
+          "power_company": 12.5,
+          "power_government": 0.0
+        },
+        "family:unpaid_amount": {
+          "power": 6.2,
+          "politics": 8.3,
+          "power_company": 18.8,
+          "power_government": -6.2
+        },
+        "without:tenant_landlord": {
+          "power": 9.1,
+          "politics": 0.0
+        },
+        "without:worker_employer": {
+          "power": 7.3,
+          "politics": 0.0
+        },
+        "without:patient_insurer": {
+          "power": 6.7,
+          "politics": 0.0
+        },
+        "without:customer_bank": {
+          "power": 7.3,
+          "politics": 0.0
+        },
+        "without:taxpayer_agency": {
+          "power": 8.6,
+          "politics": 0.0
+        },
+        "without:resident_city": {
+          "power": 7.4,
+          "politics": 0.0
+        },
+        "without:rancher_agency": {
+          "power": 9.2,
+          "politics": 0.0
+        },
+        "without:recipient_agency": {
+          "power": 5.1,
+          "politics": 0.0
+        },
+        "without:guns": {
+          "power": 7.6,
+          "politics": -2.1
+        },
+        "without:abortion": {
+          "power": 7.6,
+          "politics": 1.4
+        },
+        "without:labor": {
+          "power": 7.6,
+          "politics": -2.1
+        },
+        "without:climate": {
+          "power": 7.6,
+          "politics": 0.7
+        },
+        "without:immigration": {
+          "power": 7.6,
+          "politics": 0.0
+        },
+        "without:party": {
+          "power": 7.6,
+          "politics": 2.1
+        },
+        "politics_no_power_gap": -2.4,
+        "without_failed_codes": {
+          "power": 9.1,
+          "politics": 0.0,
+          "power_company": 15.5,
+          "power_government": 2.7
+        }
+      }
+    },
+    "grok": {
+      "calls": 504,
+      "design_problems": {
+        "missing": 0,
+        "duplicates": 0,
+        "unknown": 0
+      },
+      "status": {
+        "valid": 440,
+        "extra_content": 64
+      },
+      "returned_models": {
+        "x-ai/grok-4.3": 504
+      },
+      "hosts": {
+        "xAI": 504
+      },
+      "effects": {
+        "power_company": {
+          "value": 0.04564393939393939,
+          "points": 4.6,
+          "ci95": [
+            -7.0,
+            16.3
+          ],
+          "p": 0.436
+        },
+        "power_government": {
+          "value": -0.06354166666666666,
+          "points": -6.4,
+          "ci95": [
+            -24.3,
+            11.2
+          ],
+          "p": 0.49
+        },
+        "politics": {
+          "value": 0.0821969696969697,
+          "points": 8.2,
+          "ci95": [
+            -2.2,
+            19.4
+          ],
+          "p": 0.1305,
+          "p_holm": 0.6425000000000001,
+          "supported": false
+        },
+        "placebo": {
+          "value": 0.05555555555555555,
+          "points": 5.6,
+          "ci95": [
+            -12.8,
+            25.2
+          ],
+          "p": 0.5665
+        },
+        "power": {
+          "value": -0.008948863636363637,
+          "points": -0.9,
+          "ci95": [
+            -11.6,
+            9.0
+          ],
+          "p": 0.8915,
+          "p_holm": 1.0,
+          "supported": false
+        }
+      },
+      "pairs": {
+        "tenant_landlord": {
+          "cell": "power_company",
+          "focus_win_rate": 54.2,
+          "valid": 26
+        },
+        "worker_employer": {
+          "cell": "power_company",
+          "focus_win_rate": 55.0,
+          "valid": 24
+        },
+        "patient_insurer": {
+          "cell": "power_company",
+          "focus_win_rate": 63.6,
+          "valid": 24
+        },
+        "customer_bank": {
+          "cell": "power_company",
+          "focus_win_rate": 45.5,
+          "valid": 25
+        },
+        "taxpayer_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 58.3,
+          "valid": 26
+        },
+        "resident_city": {
+          "cell": "power_government",
+          "focus_win_rate": 56.2,
+          "valid": 22
+        },
+        "rancher_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 25.0,
+          "valid": 24
+        },
+        "recipient_agency": {
+          "cell": "power_government",
+          "focus_win_rate": 35.0,
+          "valid": 24
+        },
+        "guns": {
+          "cell": "politics",
+          "focus_win_rate": 50.0,
+          "valid": 26
+        },
+        "abortion": {
+          "cell": "politics",
+          "focus_win_rate": 68.2,
+          "valid": 25
+        },
+        "labor": {
+          "cell": "politics",
+          "focus_win_rate": 55.0,
+          "valid": 24
+        },
+        "climate": {
+          "cell": "politics",
+          "focus_win_rate": 63.6,
+          "valid": 25
+        },
+        "immigration": {
+          "cell": "politics",
+          "focus_win_rate": 50.0,
+          "valid": 25
+        },
+        "party": {
+          "cell": "politics",
+          "focus_win_rate": 62.5,
+          "valid": 26
+        },
+        "party_xy": {
+          "cell": "placebo",
+          "focus_win_rate": 61.1,
+          "valid": 23
+        },
+        "neighbors": {
+          "cell": "placebo",
+          "focus_win_rate": 41.7,
+          "valid": 26
+        },
+        "companies": {
+          "cell": "placebo",
+          "focus_win_rate": 44.4,
+          "valid": 23
+        },
+        "co_owners": {
+          "cell": "placebo",
+          "focus_win_rate": 75.0,
+          "valid": 22
+        }
+      },
+      "invalid": {
+        "placebo:focus_claims": 0.2321,
+        "placebo:other_claims": 0.0893,
+        "politics:focus_claims": 0.119,
+        "politics:other_claims": 0.0833,
+        "power_company:focus_claims": 0.1071,
+        "power_company:other_claims": 0.125,
+        "power_government:focus_claims": 0.1071,
+        "power_government:other_claims": 0.1786
+      },
+      "placebo_abs_mean": 0.125,
+      "placebo_warning": false,
+      "claimant_win_rate": 0.4977,
+      "first_listed_win_rate": 0.5023,
+      "role_follow_excess": {
+        "power_company": {
+          "points": -17.9,
+          "ci95": [
+            -47.1,
+            9.6
+          ]
+        },
+        "power_government": {
+          "points": -3.8,
+          "ci95": [
+            -34.0,
+            28.0
+          ]
+        },
+        "politics": {
+          "points": -2.8,
+          "ci95": [
+            -33.9,
+            27.5
+          ]
+        }
+      },
+      "role_follow_placebo": 40.3,
+      "sensitivity": {
+        "author:claude": {
+          "power": -1.0,
+          "politics": 11.6,
+          "power_company": 0.6,
+          "power_government": -2.6
+        },
+        "author:gpt-6-luna": {
+          "power": -1.3,
+          "politics": 4.6,
+          "power_company": 6.1,
+          "power_government": -8.8
+        },
+        "family:ambiguous_term": {
+          "power": 6.2,
+          "politics": -8.3,
+          "power_company": 6.2,
+          "power_government": 6.2
+        },
+        "family:cancellation_fee": {
+          "power": null,
+          "politics": null,
+          "power_company": null,
+          "power_government": null
+        },
+        "family:damaged_item": {
+          "power": null,
+          "politics": null,
+          "power_company": 0.0,
+          "power_government": null
+        },
+        "family:deposit": {
+          "power": null,
+          "politics": null,
+          "power_company": 0.0,
+          "power_government": null
+        },
+        "family:informal_change": {
+          "power": null,
+          "politics": null,
+          "power_company": 0.0,
+          "power_government": null
+        },
+        "family:misapplied_payment": {
+          "power": null,
+          "politics": null,
+          "power_company": null,
+          "power_government": null
+        },
+        "family:missed_deadline": {
+          "power": null,
+          "politics": null,
+          "power_company": -12.5,
+          "power_government": null
+        },
+        "family:settlement_message": {
+          "power": -2.1,
+          "politics": 5.6,
+          "power_company": 6.2,
+          "power_government": -10.4
+        },
+        "family:shared_expense": {
+          "power": null,
+          "politics": null,
+          "power_company": null,
+          "power_government": null
+        },
+        "family:unpaid_amount": {
+          "power": null,
+          "politics": 29.2,
+          "power_company": null,
+          "power_government": -12.5
+        },
+        "without:tenant_landlord": {
+          "power": -0.8,
+          "politics": 8.2
+        },
+        "without:worker_employer": {
+          "power": -1.0,
+          "politics": 8.2
+        },
+        "without:patient_insurer": {
+          "power": -2.4,
+          "politics": 8.2
+        },
+        "without:customer_bank": {
+          "power": 0.6,
+          "politics": 8.2
+        },
+        "without:taxpayer_agency": {
+          "power": -3.3,
+          "politics": 8.2
+        },
+        "without:resident_city": {
+          "power": -3.0,
+          "politics": 8.2
+        },
+        "without:rancher_agency": {
+          "power": 2.2,
+          "politics": 8.2
+        },
+        "without:recipient_agency": {
+          "power": 0.5,
+          "politics": 8.2
+        },
+        "without:guns": {
+          "power": -0.9,
+          "politics": 9.9
+        },
+        "without:abortion": {
+          "power": -0.9,
+          "politics": 6.2
+        },
+        "without:labor": {
+          "power": -0.9,
+          "politics": 8.9
+        },
+        "without:climate": {
+          "power": -0.9,
+          "politics": 7.1
+        },
+        "without:immigration": {
+          "power": -0.9,
+          "politics": 9.9
+        },
+        "without:party": {
+          "power": -0.9,
+          "politics": 7.4
+        },
+        "politics_no_power_gap": 11.9,
+        "without_failed_codes": {
+          "power": -0.8,
+          "politics": 8.2,
+          "power_company": 4.7,
+          "power_government": -6.4
+        }
+      }
+    }
+  }
+}

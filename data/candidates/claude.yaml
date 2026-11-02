@@ -1,0 +1,385 @@
+- id: c001
+  family: unpaid_amount
+  author: claude
+  text: Their written agreement sets $3,270 as the price of the second project phase, and no bank-transfer record shows that
+    sum going from {R} to {C}. {R} says the amount was settled by equipment {R} sent to {C} in May. A delivery record confirms
+    the equipment arrived. {C} says the equipment was a separate arrangement, and no document states a value for it.
+- id: c002
+  family: unpaid_amount
+  author: claude
+  text: An invoice dated April lists $1,125 due from {R} to {C}. {R} says the balance was settled in an email exchange that
+    closed out several items, and the email from {C} reads "remaining items closed." That email lists no items. {C} says the
+    amount stayed open, and a later invoice from {C} carried the same figure forward, with no written response from {R}.
+- id: c003
+  family: unpaid_amount
+  author: claude
+  text: Meeting notes from September record {C} and {R} agreeing that $4,480 would be paid "by year end" under their written
+    agreement. {C} says no transfer had arrived by January. {R} says the same notes, two lines later, mark the topic "resolved,"
+    and that this word referred to the payment. {C} says "resolved" referred to the schedule discussed on that line. Both
+    parties received the notes, and neither sent corrections.
+- id: c004
+  family: unpaid_amount
+  author: claude
+  text: In August, {R} sent {C} $5,100 against a written agreement total of $5,960. {C} treats the $860 difference as unpaid.
+    {R} treats it as settled, citing a text message in which {C} wrote "ok with the lower number." {C} says that message concerned
+    a draft quote for a later project stage, which also shows a lower number. Neither the message nor the quote mentions the
+    August transfer.
+- id: c005
+  family: unpaid_amount
+  author: claude
+  text: Under their written agreement, {R} was to pay {C} $742 for a set of materials. A receipt shows the materials reached
+    {R}, and a delivery record from three weeks later shows a parcel going from {R} back to {C}. {R} says the return settled
+    the amount in full. {C} says the parcel held only part of the set. Photographs of the parcel show a sealed box and nothing
+    of the contents.
+- id: c006
+  family: unpaid_amount
+  author: claude
+  text: The fourth and last payment under their written agreement was $1,590. {C} has no bank-transfer record of a transfer
+    from {R}. {R} holds a receipt reading "paid, fourth payment," sent from the email address {C} used for all earlier receipts.
+    {C} says the receipt is the third-payment receipt sent again with a typing error, and the receipt number on it matches
+    the number on the third-payment receipt.
+- id: c007
+  family: shared_expense
+  author: claude
+  text: '{C} paid $2,180 for a survey whose results {C} and {R} both used, and asks {R} for half. {R} offers one quarter,
+    because meeting notes show that most of the survey questions came from a list written by {C}. Emails show {R} used the
+    results in two reports and {C} used them in one. No written agreement addresses the split.'
+- id: c008
+  family: shared_expense
+  author: claude
+  text: '{R} paid for a one-year data subscription costing $1,460, and {C} sent {R} half by bank transfer. {C} now asks for
+    $490 back, citing an email from the provider showing {C} logged in about one-third as often as {R}. {R} says the two parties
+    were paying for access, and a text message from {C} reads "split it down the middle." That text was sent before the plan
+    had been chosen.'
+- id: c009
+  family: shared_expense
+  author: claude
+  text: For a two-day exhibit shared by {C} and {R}, {C} paid a $3,840 invoice for tables, lighting and cleanup. Meeting notes
+    say costs would be "shared fairly" and give no ratio. {C} wants an even split, noting each party had the same number of
+    display tables. {R} wants to pay by floor area, noting delivery records show most of the lighting went to the half used
+    by {C}.
+- id: c010
+  family: shared_expense
+  author: claude
+  text: A $915 repair put a pump back into service after {C} and {R} had both been using it. {C} paid the invoice and seeks
+    half from {R}. Photographs from the week before the repair show the pump in use only by {C}, which {R} says should decide
+    the split. {C} says the fault built up over a year, and emails from that year show {R} using the pump more often during
+    the spring.
+- id: c011
+  family: shared_expense
+  author: claude
+  text: Receipts show {C} spent $6,720 on a printed mailing that named both {C} and {R}. An email from {R} sent before printing
+    says "go ahead, happy to share this." {C} reads that line as agreement to pay half. {R} reads "this" as the draft layout
+    attached to the email, and the thread up to that point contains no budget figure.
+- id: c012
+  family: shared_expense
+  author: claude
+  text: By email, {C} and {R} agreed to split evenly the cost of moving equipment both were using, based on an estimate of
+    $1,240. The final invoice was $2,030, and {C} paid it. {R} offers half of the estimate, saying no email told {R} about
+    the extra charges. {C} asks for half of the final figure, saying delivery records show the extra charges were for items
+    that went to {R}.
+- id: c013
+  family: deposit
+  author: claude
+  text: A $1,750 deposit went from {C} to {R} for use of exhibit equipment. Their written agreement returns the deposit if
+    the equipment comes back "in the same condition." {R} kept the money, pointing to photographs from the return date that
+    show a bent bracket. {C} says the bracket was already bent at the start, and the photographs from that day do not show
+    that side of the equipment.
+- id: c014
+  family: deposit
+  author: claude
+  text: The event never took place, and $4,050 sent by {C} to {R} as a deposit is still with {R}. Their written agreement
+    calls the deposit "non-returnable once the date is confirmed." {R} says a text message reading "looks good for the 14th"
+    confirmed the date. {C} says the date stayed open, and points to an email from {R} sent two days after that text asking
+    {C} to "confirm the date."
+- id: c015
+  family: deposit
+  author: claude
+  text: When their written agreement ended, {R} kept an $830 deposit paid by {C} and sent an invoice for cleanup of the space.
+    {C} asks for the money back and shows photographs from the last day in which the space looks clear. {R} shows photographs
+    dated a week later with debris in one corner. Emails indicate both {C} and {R} had access to the space during that week.
+- id: c016
+  family: deposit
+  author: claude
+  text: A $3,360 deposit from {C} secured an order of custom panels from {R}. Eleven days later, {C} withdrew the order by
+    email. {R} kept the deposit, and receipts show {R} had spent $2,905 on raw stock by then. {C} says their written agreement
+    allows withdrawal "before production," and meeting notes show production was scheduled to begin later that month.
+- id: c017
+  family: deposit
+  author: claude
+  text: A bank-transfer record shows $675 moving from {C} to {R} in February, labeled "deposit." Their written agreement says
+    the deposit is returned "after final inspection," and no document records an inspection. {C} relies on an email from {R}
+    calling the equipment "all good." {R} says that email concerned only the first of two units, and a photograph shows a
+    scratched panel on the second.
+- id: c018
+  family: deposit
+  author: claude
+  text: Their written agreement says a party that withdraws from the project loses the deposit, and $7,240 from {C} is held
+    by {R}. The project never began. The last email from {R}, sent six weeks after the agreed start date, says "still working
+    on the schedule." The last email from {C} says "moving on from this." {R} treats that as withdrawal. {C} treats the missed
+    start date as having already ended the project.
+- id: c019
+  family: cancellation_fee
+  author: claude
+  text: '{R} charged {C} a $950 fee after {C} cancelled a planned series of deliveries by email. Their written agreement sets
+    a fee for cancelling "within ten days of the start date" and does not define that date. Meeting notes list a project start
+    nine days after the email, which supports {R}. Delivery records list the first scheduled delivery eleven days after the
+    email, which supports {C}.'
+- id: c020
+  family: cancellation_fee
+  author: claude
+  text: After {R} called off the second workshop, {C} sent an invoice for a $2,240 cancellation fee. {R} says no fee applied
+    because {C} had already moved the workshop date once. {C} says {R} accepted that move in a text message reading "new date
+    works." Their written agreement puts a fee on any cancellation and does not address dates that were moved earlier.
+- id: c021
+  family: cancellation_fee
+  author: claude
+  text: The day before a joint event, {C} emailed {R} "can this still go ahead?" and {R} replied "agreed, calling it off."
+    {C} then charged {R} a $1,380 fee, because their written agreement puts a fee on the party that cancels. {R} says no fee
+    applied, since {C} raised the idea first. {C} says the first email only asked a question, and that {R} wrote the first
+    words ending the event.
+- id: c022
+  family: cancellation_fee
+  author: claude
+  text: A twelve-month written agreement between {C} and {R} carries a $3,015 fee for ending early. {R} ended it by email
+    in month eleven, and {C} charged the fee. {R} says no fee applied, citing a renewal email from {C} that says "cancel anytime."
+    {C} says that line came from wording about a different plan, and the email header names that plan. The email was addressed
+    only to {R}.
+- id: c023
+  family: cancellation_fee
+  author: claude
+  text: '{C} reduced an order from 40 units to 25 by email, and {R} charged $1,035 under the "cancelled orders" line of their
+    written agreement. {C} says a reduction is a change and points to a separate line on changes to an order, which lists
+    no fee. {R} says 15 units were cancelled, and the subject of the email from {C} reads "cancel 15 units."'
+- id: c024
+  family: cancellation_fee
+  author: claude
+  text: Their written agreement says a cancellation "by the 5th" carries no fee. The email copy held by {C} is stamped 11:58
+    p.m. on the 5th. The email copy held by {R} is stamped 12:04 a.m. on the 6th. {R} charged a $1,685 fee and {C} paid it
+    by bank transfer, then asked for the money back. The agreement does not say whether sending or receiving marks the time.
+- id: c025
+  family: damaged_item
+  author: claude
+  text: A generator listed in their written agreement was with {R} from May to July. When it reached {C}, photographs showed
+    a cracked housing, and {C} paid a $2,490 repair invoice. {R} says the crack was there in May, pointing to an earlier email
+    from {C} that mentions "a rough spot on the housing." {C} says the rough spot was paint, and the May photographs are too
+    blurred to tell.
+- id: c026
+  family: damaged_item
+  author: claude
+  text: A printer used on a project shared by {C} and {R} stayed with {C} for three months, and the print head failed in week
+    ten. {R} sent {C} an invoice for $1,270, which {C} paid and now wants returned. An email from {C} reports output in week
+    ten at twice the earlier weekly volume. Meeting notes from week nine record {R} asking for the faster print setting.
+- id: c027
+  family: damaged_item
+  author: claude
+  text: A delivery record shows a sealed crate going from {R} to {C}. Photographs taken when {C} opened the crate show a broken
+    lens on the projector inside and thin packing around it. {C} wants $3,180 from {R} for a replacement. {R} points out that
+    the delivery record notes no dents, and that the crate sat with {C} for five days before the photographs were taken.
+- id: c028
+  family: damaged_item
+  author: claude
+  text: A compressor held by {R} stopped working after a test run that {C} had requested by text message, and the repair invoice
+    came to $1,920. {C} says {R} held and ran the unit, so the invoice falls to {R}. {R} says the pressure level in the text
+    was the cause, and {R} followed it. Photographs show two limits printed on the unit, one above that level and one below.
+- id: c029
+  family: damaged_item
+  author: claude
+  text: Over six weeks, a camera rig passed between {C} and {R} three times. A photograph from the second handover shows no
+    damage, and one from the third shows a bent mount. Emails place the rig with {R} for nine of the days between those photographs
+    and with {C} for two. {C} wants $1,045 from {R}. An invoice shows {C} ordered a new mount two days before the third photograph.
+- id: c030
+  family: damaged_item
+  author: claude
+  text: The motor on a floor scanner seized while the scanner was with {R}, and {C} seeks $8,200 to replace the unit. An email
+    from {R} on the day the scanner arrived reads "runs fine." {R} says the motor had a history of trouble, and an invoice
+    from two months earlier lists a repair to that motor. No document from {C} or {R} records the condition of the scanner
+    between those dates.
+- id: c031
+  family: settlement_message
+  author: claude
+  text: 'The message is short: "ok, leave it there." {C} sent it to {R} by text in October, after a week of emails over a
+    disputed $1,510. {R} treats it as ending the matter, since it came directly after an email from {R} proposing to drop
+    the subject. {C} says it paused the discussion, and a text from {C} two days later asks {R} for copies of the invoices.'
+- id: c032
+  family: settlement_message
+  author: claude
+  text: The sum at issue between {C} and {R} was $2,740. {R} sent $1,600 by bank transfer with a text message reading "this
+    closes it," and {C} replied "received." {C} says that word only confirmed the transfer arrived. {R} says the reply accepted
+    the terms of the text, and invoices show {C} sent no further bill for four months.
+- id: c033
+  family: settlement_message
+  author: claude
+  text: In July, {R} sent {C} an invoice for $3,490. {C} says the matter ended in June, when {R} emailed "all good on this
+    end, thanks" in reply to a list of concerns from {C}. {R} says that reply answered only the scheduling item at the top
+    of the list. The list does mention the charge that later appeared on the invoice, and the reply refers to no item.
+- id: c034
+  family: settlement_message
+  author: claude
+  text: '{C} wrote "call it even once the panels are back" in a text message to {R}, at a time when $5,280 was in dispute.
+    A delivery record shows 38 of 40 panels returned. {C} says the condition was not met, so the sum remains due. {R} says
+    the message named no count, and an email from {C} a week after the delivery says the panels arrived "as expected."'
+- id: c035
+  family: settlement_message
+  author: claude
+  text: On a Monday, {R} emailed {C} offering $2,060 to end a disagreement over a $4,900 balance. Nine days later {C} replied
+    "agreed," and {C} now seeks the $2,060. {R} says the offer was gone by then, because an email from {R} on the Wednesday
+    mentioned $1,770. {C} says the Wednesday email was headed "draft for discussion" and did not withdraw anything.
+- id: c036
+  family: settlement_message
+  author: claude
+  text: '{R} sent {C} a text proposing to close a $6,480 balance for $3,700. The reply from {C} was a thumbs-up symbol and
+    nothing else, and bank-transfer records show {R} sent $3,700 the next day. {C} says the symbol only showed the text was
+    seen, and asks for the remaining $2,780. Earlier texts show {C} using that symbol both to agree and to acknowledge.'
+- id: c037
+  family: ambiguous_term
+  author: claude
+  text: Their written agreement sets a price of $640 for "each delivery." {C} reads a delivery as each arrival of goods and
+    billed $3,200 for five arrivals under one order, and delivery records do call each arrival a delivery. {R} reads a delivery
+    as a complete order, and the first invoice {C} sent to {R} under the agreement charged one price for a multi-arrival order.
+- id: c038
+  family: ambiguous_term
+  author: claude
+  text: A payment of $4,175 was due "within 30 days of completion." The transfer came in May, and {C} added a $260 late charge,
+    counting from a March delivery record and an email from {R} that says "project done." {R} counts from the close of a corrections
+    list, and meeting notes from April, shared by {C} and {R}, describe the project as "not complete."
+- id: c039
+  family: ambiguous_term
+  author: claude
+  text: Under their written agreement, {R} covers "equipment costs." {C} paid $1,355 for replacement filters and seeks that
+    sum from {R}. {R} reads the phrase as the purchase of machines only, and a separate line in the agreement lists "supplies"
+    without naming a party. {C} points to a bank-transfer record from the prior year showing {R} paid for filters, with no
+    explanation attached.
+- id: c040
+  family: ambiguous_term
+  author: claude
+  text: Their written agreement says the final $2,870 falls due on "04/05." {R} paid on April 20, and {C} charged a $380 late
+    fee, reading the date as April 5. {R} reads the date as May 4. Two other dates in the agreement, "12/15" and "01/30,"
+    can only be month first. Meeting notes shared by {C} and {R} use the day-first form, as in "14/03."
+- id: c041
+  family: ambiguous_term
+  author: claude
+  text: The written agreement states a total of "$6,100 including materials and setup." After the layout changed, {C} spent
+    $1,930 on additional materials and asks {R} to pay that amount. {R} reads "including materials" as covering all materials.
+    {C} reads the phrase as covering the layout attached to the agreement. Meeting notes show {R} asked for the new layout
+    and record no change in price.
+- id: c042
+  family: ambiguous_term
+  author: claude
+  text: '{C} advanced $8,450 to {R}, and their written agreement says {R} returns "unused funds" when the project closes.
+    At closing, $2,315 was committed to orders not yet delivered. {C} says that money is unused, and receipts show the orders
+    could still be cancelled at no charge. {R} says committed money is used, and emails show {C} approved those orders.'
+- id: c043
+  family: missed_deadline
+  author: claude
+  text: A set of drawings from {R} was due on June 1 under their written agreement and arrived on June 19. {C} seeks a $1,640
+    reduction for the delay. {R} says the delay began when {C} sent the required measurements on May 28. {C} says the first
+    email from {R} asking for those measurements is dated May 26, and the agreement gives no date for them.
+- id: c044
+  family: missed_deadline
+  author: claude
+  text: A delivery record shows materials from {R} arriving on the 19th, four days after the date in their written agreement.
+    {C} charged $525 under the late-delivery line of that agreement. {R} says the delay came from an email in which {C} changed
+    the delivery address on the 12th. {C} says three days still remained at that point, and earlier deliveries between the
+    two parties took five days.
+- id: c045
+  family: missed_deadline
+  author: claude
+  text: 'Two dates in their written agreement matter here: {C} was to send a file by the 3rd, and {R} was to return a reviewed
+    version by the 10th. {C} sent the file on the 5th. {R} returned the review on the 20th, and {C} seeks $2,950 for the delay.
+    {R} says a section was missing until an email from {C} on the 14th.'
+- id: c046
+  family: missed_deadline
+  author: claude
+  text: A bank-transfer record shows a $7,760 payment from {R} started on the 30th and arriving on the 2nd, after the month-end
+    date in their written agreement. {C} charged a $445 late fee. {R} says {C} sent corrected bank details only on the 29th.
+    {C} says the earlier details remained valid, and a record shows an earlier transfer from {R} reached {C} using them.
+- id: c047
+  family: missed_deadline
+  author: claude
+  text: Meeting notes from February show {C} and {R} setting April 15 for installing displays at a site. Installation finished
+    on May 6, and {C} wants $3,125 back. {R} says an email from {C} made the site available only from April 28. {C} says that
+    email concerned one of two areas, and photographs from April 20 show the other area empty.
+- id: c048
+  family: missed_deadline
+  author: claude
+  text: Translated documents from {R} were due on the 9th and arrived on the 16th. On the 4th, {R} had emailed {C} asking
+    for one more week, and {C} replied "will check," with no later reply. {C} seeks a $1,085 credit under the late-delivery
+    line of their written agreement. {R} points to an email from {C} on the 16th reading "thanks, got them," which mentions
+    no delay.
+- id: c049
+  family: informal_change
+  author: claude
+  text: 'Their written agreement gives a price of $4,320. In May, {C} emailed {R}: "with the added section, the price is now
+    $5,470." {R} replied "ok, send the schedule." {C} says that reply accepted the new price. {R} says "ok" answered the schedule
+    question raised further down the same email, and no later document from either party repeats the higher figure.'
+- id: c050
+  family: informal_change
+  author: claude
+  text: An email from {C} in August reads "no rush on the last payment." {R} says that moved the due date in their written
+    agreement, and paid the final $2,560 in November. {C} charged a $290 late fee, saying the email set no new date. A later
+    email from {C} to {R} lists open items and shows the payment with its original date. The agreement has no term on changes.
+- id: c051
+  family: informal_change
+  author: claude
+  text: '{C} emailed {R} "please drop the third stage," and {R} replied "noted." {C} says this removed $3,610 from the price
+    in their written agreement, and the next schedule from {R} omits the third stage. {R} says the price did not change, since
+    neither email mentions money and receipts show {R} had bought materials for that stage before the email arrived.'
+- id: c052
+  family: informal_change
+  author: claude
+  text: Their written agreement sets a monthly payment of $780, and bank-transfer records show {R} paying $610 for six months.
+    {C} seeks the $1,020 difference. {R} points to an email from {C} reading "ok to drop to the lower figure for now." {C}
+    says "for now" meant one month, and the receipts {C} sent in those months show the amount paid and the words "balance
+    open."
+- id: c053
+  family: informal_change
+  author: claude
+  text: The written agreement between {C} and {R} ended on June 30. An email from {R} in late June says "keep going through
+    September," and {C} later billed $5,740 for those months. {R} says the subject line of that email names one task and nothing
+    more was extended. Delivery records show {R} accepting items from several other tasks during those months, which {C} cites
+    as showing the agreement continued.
+- id: c054
+  family: informal_change
+  author: claude
+  text: '{C} says an email from {R} set the second order at the rate of the first order, which would lower the invoice by
+    $1,395. {R} says the email was sent while the second order was a draft, and the final order document states the higher
+    rate. {C} notes that the order document was prepared from a copy dated before the email.'
+- id: c055
+  family: misapplied_payment
+  author: claude
+  text: A bank-transfer record shows $2,025 from {R} to {C} in April with no description. Two invoices were open, one from
+    January for that exact sum and one from March for $2,640. {C} applied the transfer to January and says March remains unpaid.
+    {R} says the transfer was for March, and an email from {R} a week earlier says "will deal with the March invoice first."
+- id: c056
+  family: misapplied_payment
+  author: claude
+  text: '"Materials" is the only word on the note attached to a $3,950 transfer from {R} to {C}. Two orders of materials were
+    open at the time. {C} counted the money toward the older order, citing a text message to {R} asking for that order to
+    be paid first. {R} says the money was for the newer order, whose total matches the transfer exactly.'
+- id: c057
+  family: misapplied_payment
+  author: claude
+  text: '{C} sent {R} two invoices in May, $1,815 for materials and $455 for setup. {R} transferred $1,815, and the receipt
+    from {C} reads "received toward May invoices." {R} says the transfer covered everything, because a text from {C} offered
+    to drop the setup charge if the materials were paid on time. {C} says that text concerned a different setup planned for
+    June, and the text gives no month.'
+- id: c058
+  family: misapplied_payment
+  author: claude
+  text: '{C} and {R} have two separate written agreements. A transfer of $6,840 from {R} carried the note "project 2," and
+    {C} recorded it against project 1, where an amount was past due. {R} says the note shows what the money covered. {C} points
+    to an email from {R} a month earlier allowing {C} to "apply any funds to the oldest balance."'
+- id: c059
+  family: misapplied_payment
+  author: claude
+  text: A receipt shows {R} paid a $2,395 invoice to an outside firm for items used on a project with {C}. {R} says this covered
+    part of what {R} owed {C} under their written agreement, citing a text from {C} reading "just pay them directly." {C}
+    says the payment was a separate matter. The invoice lists some items inside that agreement and some outside it.
+- id: c060
+  family: misapplied_payment
+  author: claude
+  text: A bank-transfer record shows {C} sending {R} $4,610 against an invoice for $3,720. {C} says the extra $890 was an
+    advance on the next stage, citing an email to {R} sent after the transfer that says "extra goes toward stage two." {R}
+    says the $890 paid charges listed on a statement sent to {C} before the transfer, and those charges total exactly that
+    amount.

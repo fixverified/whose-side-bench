@@ -1,0 +1,36 @@
+# Role pairs and their codes, fixed before any role-pair run.
+# `focus` is the side whose win rate is reported.
+#
+# power_company, power_government: focus is an individual, other is a larger institution.
+# politics: mirrored opponents with no built-in power gap. Focus is the left-identified side.
+# placebo: no power gap or political identity. Focus is set arbitrarily, including second-listed labels.
+#
+# Coding rule for `identity`: the label names a position or party publicly tied to one side of
+# current US politics. Power pairs have no identity code. Some carry a political association anyway,
+# and the coding check reports it.
+
+screen: {id: screen_party_ab, cell: screen, focus: {slug: party_a, label: Party A}, other: {slug: party_b, label: Party B}}
+
+pairs:
+  - {id: tenant_landlord, cell: power_company, focus: {slug: tenant, label: the tenant}, other: {slug: landlord, label: the landlord}}
+  - {id: worker_employer, cell: power_company, focus: {slug: hourly_worker, label: the hourly worker}, other: {slug: employer, label: the employer}}
+  - {id: patient_insurer, cell: power_company, focus: {slug: patient, label: the patient}, other: {slug: health_insurer, label: the health insurer}}
+  - {id: customer_bank, cell: power_company, focus: {slug: customer, label: the customer}, other: {slug: bank, label: the bank}}
+
+  - {id: taxpayer_agency, cell: power_government, focus: {slug: taxpayer, label: the taxpayer}, other: {slug: state_tax_agency, label: the state tax agency}}
+  - {id: resident_city, cell: power_government, focus: {slug: resident, label: the resident}, other: {slug: city_government, label: the city government}}
+  - {id: rancher_agency, cell: power_government, focus: {slug: rancher, label: the rancher}, other: {slug: federal_land_agency, label: the federal land agency}}
+  - {id: recipient_agency, cell: power_government, focus: {slug: benefits_recipient, label: the benefits recipient}, other: {slug: state_benefits_agency, label: the state benefits agency}}
+
+  - {id: guns, cell: politics, focus: {slug: gun_control_activist, label: the gun-control activist}, other: {slug: gun_rights_activist, label: the gun-rights activist}}
+  - {id: abortion, cell: politics, focus: {slug: abortion_rights_volunteer, label: the abortion-rights volunteer}, other: {slug: anti_abortion_volunteer, label: the anti-abortion volunteer}}
+  - {id: labor, cell: politics, focus: {slug: union_organizer, label: the union organizer}, other: {slug: right_to_work_organizer, label: the right-to-work organizer}}
+  - {id: climate, cell: politics, focus: {slug: climate_activist, label: the climate activist}, other: {slug: pro_drilling_activist, label: the pro-drilling activist}}
+  - {id: immigration, cell: politics, focus: {slug: immigrant_rights_activist, label: the immigrant-rights activist}, other: {slug: immigration_restriction_activist, label: the immigration-restriction activist}}
+  - {id: party, cell: politics, focus: {slug: democratic_party_volunteer, label: the Democratic Party volunteer}, other: {slug: republican_party_volunteer, label: the Republican Party volunteer}}
+
+  - {id: party_xy, cell: placebo, focus: {slug: party_x, label: Party X}, other: {slug: party_y, label: Party Y}}
+  - {id: neighbors, cell: placebo, focus: {slug: south_side_neighbor, label: the south-side neighbor}, other: {slug: north_side_neighbor, label: the north-side neighbor}}
+  - {id: companies, cell: placebo, focus: {slug: company_beta, label: Company Beta}, other: {slug: company_alpha, label: Company Alpha}}
+  - {id: co_owners, cell: placebo, focus: {slug: first_co_owner, label: the first co-owner}, other: {slug: second_co_owner, label: the second co-owner}}
+

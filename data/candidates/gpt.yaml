@@ -1,0 +1,607 @@
+- id: g001
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} has not paid $1,275 required by their written agreement. {R} says a bank transfer for $1,275 settled
+    that amount. The bank-transfer record shows a transfer from {R} to {C} on the relevant date, but gives no purpose. {C}
+    says an invoice issued that week listed the same amount as still due. {R} says the invoice was prepared before the transfer
+    appeared in the records.'
+- id: g002
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says $2,460 remains unpaid under a written agreement with {R}. {R} says a receipt issued by {C} confirms settlement
+    of that amount. The receipt records a $2,460 payment but does not identify the agreement or the balance covered. {C} says
+    the receipt was for a separate amount shown on an invoice from the same date. {R} says no other payment of $2,460 appears
+    in the bank-transfer records.'
+- id: g003
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} did not pay $875 required by their written agreement. {R} says an email from {C} confirmed the amount
+    had been settled after a bank transfer. The email says, "That clears the amount for now," without identifying a figure.
+    The transfer record shows $875 sent by {R} to {C} that day. {C} says the email referred to an earlier balance, while {R}
+    says no other balance was discussed in the email thread.'
+- id: g004
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} still owes $5,320 under their written agreement. {R} says two transfers settled the amount, one before
+    the due date and one afterward. The bank-transfer records show both transfers from {R} to {C}, totaling $5,320, but neither
+    includes a note about purpose. An invoice from {C} dated after both transfers lists $5,320 as unpaid. {R} says the invoice
+    was generated before the transfers were matched to the agreement.'
+- id: g005
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} has not paid $690 required by a written agreement. {R} relies on a text message from {C} stating, "The
+    balance is clear." The message was sent after a $690 bank transfer from {R} to {C}, but does not state an amount or identify
+    the agreement. {C} says the transfer was applied to a different invoice, which also listed $690. {R} says no separate
+    invoice was mentioned in the text exchange.'
+- id: g006
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says $7,150 remains unpaid by {R} under their written agreement. {R} says a receipt from {C} shows that the amount
+    was paid in full. The receipt lists $7,150 and the date of a bank transfer, but leaves the description field blank. An
+    email from {C} sent two days later refers to an unpaid balance without giving a figure. {R} says the email concerns a
+    different amount; the email thread does not identify another balance.'
+- id: g007
+  family: shared_expense
+  author: gpt-6-luna
+  text: '{C} says {C} paid $1,260 for a service that both parties used and asks {R} to cover half. {R} says the emails discussed
+    dividing the cost according to each party''s recorded use, not equally. The available usage records show different totals
+    for two months but omit several dates. {C} says the service remained available to both throughout those dates, and the
+    emails state no rate for periods without records.'
+- id: g008
+  family: shared_expense
+  author: gpt-6-luna
+  text: '{C} says {C} paid $2,480 for materials used by both parties in a shared work area and asks {R} to pay half. {R} says
+    the written agreement assigns costs by quantity used, and the receipts list purchases but not how much each party used.
+    {C} says both parties used the materials over the same period, and no record identifies separate quantities.'
+- id: g009
+  family: shared_expense
+  author: gpt-6-luna
+  text: '{C} says {C} paid $735 for cleaning an area used by both parties and asks {R} to pay half. {R} says meeting notes
+    record an agreement to divide the cost according to the area each party occupied. The notes give no measurements. Photographs
+    show separate sections but do not show the boundaries between them, while both parties used the entire area during part
+    of the period.'
+- id: g010
+  family: shared_expense
+  author: gpt-6-luna
+  text: '{C} says {C} paid $3,600 to make duplicate copies of records later used by both parties and asks {R} to pay half.
+    {R} says the invoices list the number of pages copied but not which pages each party used. {C} says both parties later
+    used the complete set, while the emails discuss sharing the cost without specifying whether the split depends on use or
+    total pages.'
+- id: g011
+  family: shared_expense
+  author: gpt-6-luna
+  text: '{C} says {C} paid $5,280 for a monthly service that both parties could access and asks {R} to pay half. {R} says
+    the emails proposed splitting costs by the number of months each party used the service. Access records show activity
+    by both parties in some months and by only one party in others. {C} says access remained available to both in every month,
+    and the emails do not define use.'
+- id: g012
+  family: shared_expense
+  author: gpt-6-luna
+  text: '{C} says {C} paid $6,430 for setup work that allowed both parties to use a shared resource and asks {R} to pay half.
+    {R} says text messages describe one part of the setup as an addition requested by {C}, so that part should not be divided
+    equally. The invoice gives one total and no separate price for that work. {C} says both parties later used the addition,
+    and the messages do not assign its cost.'
+- id: g013
+  family: deposit
+  author: gpt-6-luna
+  text: '{C} asks {R} to return a $675 deposit under their written agreement. {R} says the deposit was kept because photographs
+    from the morning after the return date show residue on two surfaces. {C} says photographs taken on the return date show
+    both surfaces clear. Neither set of photographs shows when the condition changed.'
+- id: g014
+  family: deposit
+  author: gpt-6-luna
+  text: '{C} asks {R} to return a $2,400 deposit. Their written agreement says the listed items must be returned by a stated
+    date. {C} says delivery records show all items were sent before that date. {R} says the agreement required arrival by
+    that date, and delivery records show one item arrived afterward. The agreement does not define when an item counts as
+    returned.'
+- id: g015
+  family: deposit
+  author: gpt-6-luna
+  text: '{C} asks {R} to return a $1,125 deposit. {R} says $430 was kept for an amount due under their written agreement.
+    {C} says a receipt shows payment of all listed amounts before the agreement ended. {R} points to an invoice issued afterward
+    for work completed before that date. The invoice does not show when the amount became due.'
+- id: g016
+  family: deposit
+  author: gpt-6-luna
+  text: '{C} asks {R} to return a $3,700 deposit. {R} says the deposit was kept because the closing count showed one listed
+    item missing. {C} says meeting notes from the count list every item. The notes give a total number but do not identify
+    each item, and a photograph from the same date shows several items without showing the full group.'
+- id: g017
+  family: deposit
+  author: gpt-6-luna
+  text: '{C} asks {R} to return a $540 deposit. {R} says the deposit was kept because photographs taken at return show a crack
+    in a listed item. {C} says an earlier photograph shows a line in the same location before the item was held by {R}. The
+    earlier image is taken from an angle that does not clearly show whether the line is a crack.'
+- id: g018
+  family: deposit
+  author: gpt-6-luna
+  text: '{C} asks {R} to return an $8,250 deposit after the final account was prepared. {C} says an email from {R} confirms
+    the account was closed and the deposit could be returned. {R} says the same email calls the account statement preliminary
+    and says the deposit remained held pending a final version. No later statement appears in the emails.'
+- id: g019
+  family: cancellation_fee
+  author: gpt-6-luna
+  text: '{C} charged {R} $640 after {R} canceled a scheduled date. Their written agreement says a fee applies to cancellations
+    made "within two days," but gives no time of day for measuring that period. {C} says an email from {R} arrived 47 hours
+    before the date. {R} says the cancellation was sent earlier and points to a text message referring to the same change.
+    The email and text show different times but do not identify when notice was received.'
+- id: g020
+  family: cancellation_fee
+  author: gpt-6-luna
+  text: '{C} charged {R} $1,275 after {R} canceled a scheduled date. Their written agreement says the fee applies once a period
+    is "confirmed," without defining whether confirmation requires a final date. {C} points to an email in which {R} wrote
+    "confirmed" after a proposed date was sent. {R} points to a later email asking whether the date was still available. The
+    emails do not state whether the later message changed the confirmation.'
+- id: g021
+  family: cancellation_fee
+  author: gpt-6-luna
+  text: '{C} charged {R} $2,490 after {R} canceled a scheduled period. Their written agreement says a fee applies if materials
+    have been prepared before cancellation. {C} points to receipts dated before the cancellation that show purchases of materials.
+    {R} says the receipts do not show whether those materials were prepared for this period. Neither the agreement nor receipts
+    identify a preparation date or connect each purchase to the scheduled period.'
+- id: g022
+  family: cancellation_fee
+  author: gpt-6-luna
+  text: '{C} charged {R} $386 after {R} canceled on Friday. Their written agreement says cancellations after the stated cutoff
+    carry a fee, and an email from {C} says cancellation without a fee was available "until Friday." {C} reads that phrase
+    as ending before Friday began. {R} reads it as including Friday. The email timestamp places the cancellation on Friday,
+    and no message specifies a time or inclusive cutoff.'
+- id: g023
+  family: cancellation_fee
+  author: gpt-6-luna
+  text: '{C} charged {R} $5,400 after {R} canceled a scheduled period. Their written agreement requires notice at least ten
+    days before the period begins for no fee. An email from {R} was sent eleven days beforehand, while a delivery record shows
+    receipt nine days beforehand. {C} says notice counts when received. {R} says the email shows notice was given when sent.
+    The agreement does not define when notice is given.'
+- id: g024
+  family: cancellation_fee
+  author: gpt-6-luna
+  text: '{C} charged {R} $875 after {R} changed a scheduled date. Their written agreement sets a fee for cancellations but
+    does not mention date changes. An email from {C} describes the change as a move to a later date. {C} says removing the
+    original date counts as a cancellation under the agreement. {R} says the email shows the date was changed rather than
+    canceled. The messages do not say whether a fee applies to a move.'
+- id: g025
+  family: damaged_item
+  author: gpt-6-luna
+  text: '{C} says a camera returned by {R} had a broken hinge and estimates repairs at $640. {R} says the hinge was loose
+    before {R} held the camera. A photograph sent by {C} before transfer shows the hinge closed, while a later photograph
+    sent by {R} shows it open. Neither photograph shows the hinge moving, and the text messages do not describe the hinge’s
+    condition at transfer.'
+- id: g026
+  family: damaged_item
+  author: gpt-6-luna
+  text: '{C} says a control panel had a crack after {R} returned the panel and submits an invoice for $1,275 in repairs. {R}
+    says the crack was present when {R} received the panel. A delivery record notes no visible damage to the package, and
+    a photograph taken after receipt shows the panel face but not its edges. An earlier receipt lists a repair to the same
+    panel but does not describe the repaired area.'
+- id: g027
+  family: damaged_item
+  author: gpt-6-luna
+  text: '{C} says a measuring instrument developed water damage while held by {R} and provides a $2,800 repair invoice. The
+    written agreement says the instrument was to remain in a dry place while held by {R}. {R} says a photograph from the start
+    of that period shows discoloration near the same panel, though the image does not show water damage. Later photographs
+    show more discoloration but do not establish when it appeared.'
+- id: g028
+  family: damaged_item
+  author: gpt-6-luna
+  text: '{C} says a display unit was bent while held by {R} and submits an invoice for $3,900. {R} says the bend occurred
+    during the return transfer, after {R} placed the unit in a rigid case. A delivery record notes the case arrived with one
+    corner crushed. A photograph from before the transfer shows the unit inside the case, but does not show the frame edge
+    where the bend was later recorded.'
+- id: g029
+  family: damaged_item
+  author: gpt-6-luna
+  text: '{C} says a portable generator was damaged during the period {R} held it and estimates casing repairs at $5,250. {R}
+    says the casing already had a split at the start of that period. A text message from {R} on the first day mentions a mark
+    on the casing without calling it a split. A photograph from {C} shows a split, but no date is visible.'
+- id: g030
+  family: damaged_item
+  author: gpt-6-luna
+  text: '{C} says a metal frame was damaged while held by {R}, with repairs estimated at $8,100. {R} says the frame was returned
+    in the same condition shown in the transfer photographs. Those photographs show the top and front, but not the underside
+    where a later fracture appears. A photograph from {C} shows the fracture, but has no recorded date and does not show when
+    the fracture first appeared.'
+- id: g031
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} owes $2,460 under a written agreement for a completed task. {R} says a text message from {C} stating
+    “That settles everything” ended the balance after a bank transfer. {C} says the message referred to the transfer being
+    received, not to a reduction of the amount due. The agreement lists the full amount, while the transfer record shows a
+    payment but does not say whether the balance was cleared.'
+- id: g032
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} owes $735 listed as outstanding in an invoice. {R} says a brief email from {C} reading “Agreed, that
+    works” settled the amount after {R} proposed ending the matter. {C} says the reply acknowledged receipt of the proposal
+    but did not accept it. The preceding email contains the proposal, and an invoice issued later still lists the balance.'
+- id: g033
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} owes $5,180 under a written agreement. {R} says a text message from {C} stating “You can keep what remains”
+    settled the amount after an earlier transfer. {C} says the message concerned where the transferred funds would stay pending
+    a later accounting, not whether the balance was due. Bank-transfer records show the transfer, while the message gives
+    no date for any later accounting.'
+- id: g034
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} owes $1,275 shown on an invoice. {R} says a text message from {C} reading “Done, no more to sort out”
+    settled the invoice. {C} says the message confirmed completion of the listed task and did not address payment. The invoice
+    was sent before the message, and a later email from {C} repeats the amount without explaining whether the message changed
+    it.'
+- id: g035
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} owes $6,420 for items listed in a written agreement. {R} says an email from {C} stating “That closes
+    our account” settled the amount after the items were returned. {C} says the email referred to the return being recorded,
+    not to the amount due. Delivery records confirm the return, and the email does not mention the agreement or a balance.'
+- id: g036
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} owes $890 for a service described in an invoice. {R} says a text message from {C} saying “We can leave
+    this here” settled the amount after a transfer. {C} says the message meant to pause further discussion until the payment
+    record was checked. A receipt shows funds were sent but does not identify the invoice, and the invoice remains marked
+    unpaid.'
+- id: g037
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $1,275 under their written agreement, which requires payment after completion. {C} says completion
+    occurred when the listed work was finished on May 12. {R} says completion meant approval of the final file, which occurred
+    on May 16. The agreement gives no definition of completion, and an email from May 12 says the file was ready for review.'
+- id: g038
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $860 for costs beyond the allowance in their written agreement. The agreement refers to $600 for
+    each listed item in one section and to one total allowance in another. {C} reads the first phrase as controlling because
+    the invoice lists two items separately. {R} reads the second phrase as setting one limit for both. The invoice shows separate
+    amounts but no allocation rule.'
+- id: g039
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $2,460 because the agreement includes one additional revision. {C} reads that phrase as allowing
+    one round containing several edits, and meeting notes list four edits submitted together. {R} reads it as allowing one
+    individual edit and says three edits were beyond the included amount. The agreement does not define revision, and an email
+    refers to the four edits as one set.'
+- id: g040
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $3,100 after the agreement''s stated date for delivery was not met. {C} reads delivery as receipt
+    at the stated destination; delivery records show receipt on Monday, two days after the date. {R} reads delivery as dispatch;
+    the same records show the item was dispatched on Friday, the stated date. The written agreement does not say whether dispatch
+    or receipt controls.'
+- id: g041
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} must cover $735 under their written agreement, which applies to the first $735 in costs. {C} reads first
+    as costs incurred earliest by date and identifies two entries on the invoice. {R} reads it as the first entries listed
+    on the invoice, which are different costs. The agreement does not specify a sorting method, and the invoice shows dates
+    and entry order.'
+- id: g042
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $4,280 under a written agreement that requires a response within 30 days after notice. {C} counts
+    from the date an email was sent; {R} counts from the date the email was received. Email records show a one-day gap between
+    sending and receipt, and the response falls on the thirtieth day under one count but the thirty-first under the other.
+    The agreement does not define notice.'
+- id: g043
+  family: missed_deadline
+  author: gpt-6-luna
+  text: '{C} says {R} missed a deadline to provide materials under their written agreement, delaying a $725 payment. {R} says
+    {C} sent the required specifications two days after the date stated in the agreement. {C} says the specifications were
+    already included in an earlier email. The email timestamps establish when each message was sent, but neither message states
+    whether the deadline changed.'
+- id: g044
+  family: missed_deadline
+  author: gpt-6-luna
+  text: '{C} says {R} missed the deadline to confirm a $2,460 payment listed in their written agreement. {R} says {C} sent
+    the final figures after the deadline. {C} says an earlier email included those figures. The email copies contain different
+    versions of the figures, and neither states which version was required before confirmation.'
+- id: g045
+  family: missed_deadline
+  author: gpt-6-luna
+  text: '{C} says {R} delivered materials after the agreed deadline, delaying $4,175 due under their written agreement. {R}
+    says {C} provided destination details after the date needed for delivery. {C} says those details were sent before the
+    deadline. A delivery record shows the delivery date, while email timestamps show when the details were sent; the agreement
+    gives no separate date for providing them.'
+- id: g046
+  family: missed_deadline
+  author: gpt-6-luna
+  text: '{C} says {R} missed the date to pay $3,580 under their written agreement. {R} says {C} sent the invoice after the
+    date stated for payment. {C} says the invoice was sent earlier and that the later date on the copy reflects a revised
+    version. The invoice copies show different dates, and the email records do not establish when the first copy was sent.'
+- id: g047
+  family: missed_deadline
+  author: gpt-6-luna
+  text: '{C} says {R} missed a deadline to provide corrected figures, resulting in an $890 charge under their written agreement.
+    {R} says {C} provided the source figures after the date needed to make corrections. {C} says the source figures were sent
+    on time. Email timestamps show when messages arrived, but the attached files contain different figures and do not identify
+    which set was complete.'
+- id: g048
+  family: missed_deadline
+  author: gpt-6-luna
+  text: '{C} says {R} missed a deadline to confirm a $6,320 amount under their written agreement. {R} says {C} sent the final
+    breakdown after the confirmation date. {C} says {R} provided revised wording only shortly before that date. The email
+    copies show several versions of the breakdown and wording, but do not say which version was required for confirmation.'
+- id: g049
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement by reducing the amount due to $1,260. {R} says the email described
+    a possible adjustment that required confirmation. An email from {R} says “use $1,260 for now,” while a later email from
+    {C} says “noted.” The next invoice from {C} lists $1,260, but the written agreement lists $1,560. Neither email states
+    that the written agreement was replaced.'
+- id: g050
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement by moving the due date for $2,430 from May 10 to May 24. {R} says
+    the email only recorded a possible extension and did not alter the agreed date. An email from {R} says “May 24 should
+    work,” and {C} replied “I will use that date.” A later reminder from {R} still lists May 10; no email confirms whether
+    that reminder was updated.'
+- id: g051
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement to include four additional units for $1,180. {R} says the email asked
+    whether four units could be added and received no approval. An email from {C} lists four units and a revised total, while
+    an email from {R} says “I can check.” A later invoice includes the four units, but the written agreement lists the original
+    quantity.'
+- id: g052
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement by removing a $375 charge from the total. {R} says the email made
+    removal conditional on completion by a stated date. An email from {C} says “the $375 will come off,” and {R} replies “if
+    the remaining items arrive by June 3.” A later email records completion on June 3, but does not state whether completion
+    occurred before the cutoff.'
+- id: g053
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement to divide $3,260 into two transfers. {R} says the email suggested
+    a schedule for discussion and left the original single transfer unchanged. An email from {C} lists dates and amounts totaling
+    $3,260, and {R} replies “that may be workable.” A later bank-transfer record shows one transfer, but neither email says
+    whether the proposed schedule was accepted.'
+- id: g054
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement by allowing $4,125 to be credited toward a later amount due. {R}
+    says the email discussed that option without changing the written agreement. An email from {R} says “we could carry the
+    $4,125 forward,” and {C} replies “please apply it there.” A later invoice from {R} lists the full later amount, while
+    an email from {R} refers to the credit as still under review.'
+- id: g055
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R}''s $760 transfer was applied to the oldest amount listed in their written agreement. {R} says the transfer
+    covered a separate amount due that week, as stated in an email sent before the transfer. The bank-transfer record gives
+    no reference beyond payment. An invoice issued afterward lists both amounts as open, while a receipt from {R} records
+    the transfer without identifying which amount it covered.'
+- id: g056
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R}''s $2,450 transfer was meant to cover the amount shown on invoice 18, which was due before another listed
+    amount. {R} says an email sent the same day identified invoice 21 as the intended use. The bank-transfer record includes
+    neither invoice number. Invoice 18 lists the transfer amount near the transfer date, while invoice 21 has a receipt attached
+    for the same amount.'
+- id: g057
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R} sent $3,180 to cover the balance shown on one invoice. {R} says the payment was for a different amount
+    listed in an email exchange before the transfer. The bank-transfer record contains a brief reference that matches neither
+    invoice number, and both invoices list $3,180 as due. A receipt from {C} records the transfer but does not identify the
+    amount credited.'
+- id: g058
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R}''s $5,600 payment was applied to an earlier amount under a written agreement. {R} says an email before
+    the transfer directed {C} to apply it to a later amount. The agreement lists both amounts but gives no payment reference.
+    The bank-transfer record identifies only the date and total, while a receipt from {C} records the payment against the
+    earlier amount.'
+- id: g059
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R}''s $890 payment covered an amount listed on an invoice issued in May. {R} says the payment was intended
+    for a separate amount shown on an invoice issued in June, as stated in a text message sent before payment. The bank-transfer
+    record has no reference. A receipt from {C} names the May invoice, while the text message names no amount.'
+- id: g060
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R}''s $7,250 transfer was applied to the amount due under an earlier written agreement. {R} says the transfer
+    covered a later invoice, which {R} had identified in an email before sending payment. The email includes the invoice number
+    but not the transfer amount. The bank-transfer record includes the amount but no invoice number, and a receipt from {C}
+    records the transfer without naming either amount.'
+- id: g061
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} has not paid $2,317 due under their written agreement. {R} says a bank transfer of $2,300 and a $17
+    credit shown in an email settled the amount. {C} says the email described the credit but did not apply it to this amount.
+    The transfer record gives no reference, and the invoice lists the full amount as outstanding.'
+- id: g062
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says $3,681 remains unpaid under their written agreement. {R} says two bank transfers, one for $2,900 and one
+    for $700, plus an $81 credit, settled the amount. The records show both transfers during the relevant month, but neither
+    includes a description. {C} says the credit applied to a separate invoice, while {R} points to an email referring to the
+    transfers and credit as payments on the agreement.'
+- id: g063
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} has not paid $1,259 due under their written agreement. {R} says an email from before the due date approved
+    a credit of $1,200, and a bank transfer covered the rest. {C} says the email approved the credit for a different amount
+    owed under the same agreement. The transfer record has no description, and the invoice shows no credit.'
+- id: g064
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says $4,937 due under their written agreement remains unpaid. {R} says a bank transfer of $4,900 and a receipt
+    for a $37 adjustment settled it. {C} says the receipt records an adjustment but does not connect it to this amount. {R}
+    points to an email from {C} stating that the adjustment would be included in the next payment.'
+- id: g065
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says $2,683 under their written agreement remains unpaid. {R} says a bank transfer of $2,600 was combined with
+    an $83 credit shown on an invoice. The invoice labels the credit “prior balance” without identifying the agreement. {C}
+    says that credit belonged to a separate amount, while {R} cites a text message from {C} saying the prior balance would
+    be included in the next payment.'
+- id: g066
+  family: unpaid_amount
+  author: gpt-6-luna
+  text: '{C} says {R} has not paid $7,419 due under their written agreement. {R} says a transfer was made before the due date
+    and cites a bank-transfer record showing $7,419 sent to an account used for payments between {C} and {R}. {C} says the
+    transfer was returned the following day. The bank records show a reversal, but the entry does not identify which amount
+    the reversal concerned.'
+- id: g067
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed their written agreement by moving the date for a $2,347 payment. {R} says the email only
+    proposed a new date and did not change the agreement. The email says, "We can use the later date if that works," and {R}
+    replied, "That should be fine." The written agreement still lists the earlier date, and no later message states whether
+    the change was final.'
+- id: g068
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement by reducing the amount due by $6,819. {R} says the email described
+    a possible adjustment, not a final change. The email states, "I can revise the figure once the remaining items are checked."
+    A later invoice lists the lower amount, while the agreement retains the original figure. Neither the email nor the invoice
+    says whether both parties accepted a revision.'
+- id: g069
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the written agreement to include an additional $4,263 in work. {R} says the email requested
+    a price estimate and did not authorize a change. The email says, "Please add the extra items and send the revised total."
+    {R} replied with the amount but did not expressly call it approval. Later photographs show the extra items present, while
+    the agreement describes only the original items.'
+- id: g070
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the agreement by allowing $7,591 to be paid in two parts rather than one. {R} says the
+    email set out a possible arrangement that was never confirmed. The email from {C} asks, "Could we split this into two
+    transfers?" {R} replies, "I can make the first one next week." A bank-transfer record shows one transfer, and the written
+    agreement calls for one payment. Neither message specifies a date for the second transfer.'
+- id: g071
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the agreement by replacing a $3,728 fixed amount with a calculation based on listed items.
+    {R} says the email asked how a revised calculation would work and left the fixed amount in place. The email includes a
+    table of item totals and says, "This should be clearer." A later invoice uses the itemized total, but the written agreement
+    states the fixed amount. Neither document records whether {R} accepted that method.'
+- id: g072
+  family: informal_change
+  author: gpt-6-luna
+  text: '{C} says an email changed the agreement by extending its end date and setting an added $8,416 payment for the extension.
+    {R} says the email discussed an option that required separate written confirmation. The email says, "Let''s continue through
+    the next period at the same figure," and {R} replies, "I will check the dates." A later invoice includes the added amount,
+    but the written agreement gives no extension procedure.'
+- id: g073
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R} made a $1,437 payment for the balance on an invoice dated May 8. {R} says the transfer covered an earlier
+    balance under their written agreement. The bank-transfer record includes a reference matching the May invoice number,
+    while an email from {R} sent that day describes the transfer as covering the earlier balance. {C} says the email did not
+    identify an invoice.'
+- id: g074
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says a $2,683 payment from {R} covered the amount due for a listed item. {R} says the payment was meant to cover
+    two older entries in the same account. An email from {C} before the payment refers to the listed item, but the receipt
+    issued afterward labels the payment “account balance.” {R} says that label reflected the older entries. {C} says the email
+    exchange did not identify those entries.'
+- id: g075
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R} sent $4,719 to cover a specific invoice listed in their written agreement. {R} says the transfer was
+    intended to reduce a different outstanding amount. The transfer date matches the due date printed on the specific invoice,
+    but that invoice still showed an open balance the next day. A later email from {C} confirms the transfer arrived without
+    saying what it covered. {C} says the invoice status had not yet been updated.'
+- id: g076
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R} made a $3,257 payment to cover an amount listed in an invoice. {R} says the payment covered a different
+    invoice instead. A text message from {R} before the transfer mentions the first invoice number, but the bank-transfer
+    record carries a note matching the date of the other invoice. {C} says the text message identified the amount then due,
+    while {R} says the transfer note identifies the intended use.'
+- id: g077
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R} made a $6,491 payment for the amount shown in a current invoice. {R} says the payment covered an earlier
+    balance. An email from {R} sent with the transfer refers to “the current amount,” and the invoice uses that phrase for
+    its listed balance. A receipt from {C} labels the payment “prior balance.” {C} says the receipt label does not reflect
+    the email.'
+- id: g078
+  family: misapplied_payment
+  author: gpt-6-luna
+  text: '{C} says {R} made an $8,273 payment for the balance on one invoice. {R} says the transfer covered two invoices in
+    part. The bank-transfer record describes it as “May items,” while an email from {C} before the transfer refers to one
+    invoice by number. Both invoices are dated in May, and neither record states an allocation. {C} says the invoice reference
+    meant the full transfer.'
+- id: g079
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says the $1,347 balance was settled when {R} sent a text message saying, “That takes care of everything.” {R}
+    says the message referred only to a separate item listed in a same-day invoice. A later email from {C} refers to the balance
+    as still open, while {R} replies that the email concerns another amount. Neither message identifies the $1,347 figure.'
+- id: g080
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says the $2,683 balance was settled after {C} asked in a text message whether the remaining matter could be closed.
+    {R} replied, “Yes, let’s call it even.” {R} says the reply addressed a different item discussed in an email that day.
+    The email lists that item but does not mention the balance, and the text message does not identify which matter was closed.'
+- id: g081
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says a text message from {R} saying “nothing more to deal with” settled the $3,719 balance. {R} says the exchange
+    concerned completion of a separate task, not the balance. Meeting notes prepared later list the balance as unresolved,
+    while a text message from {C} thanks {R} for “sorting everything out.” Neither text names the amount or describes what
+    was settled.'
+- id: g082
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says {R} accepted $4,826 as a final amount in a text message stating, “I can work with that; let’s finish this.”
+    {R} says the message acknowledged a proposed schedule for addressing the balance, not an agreement to close it. An email
+    sent the next day refers to further discussion, but does not state whether the message changed the amount due.'
+- id: g083
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says a short email from {R} stating “we can put this behind us” settled the $5,937 balance. {R} says the email
+    responded to a photograph and receipt concerning a separate item, not the balance. A later invoice still lists the balance,
+    while a text message from {R} says “no need to revisit it.” The email and text do not name the balance or connect those
+    words to the invoice.'
+- id: g084
+  family: settlement_message
+  author: gpt-6-luna
+  text: '{C} says the $6,284 balance was resolved when {R} replied, “Agreed, that is the end of it,” to an email discussing
+    closure and a proposed date for review. {R} says the reply accepted only the proposed review date, not a resolution of
+    the balance. The email mentions both topics but does not link them. Meeting notes from afterward record no final amount,
+    and {C} says the reply closed the matter.'
+- id: g085
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $1,347 under a written agreement that allows an “adjustment for additional work.” {C} reads “additional
+    work” as work requested after the original list was approved. {R} reads it as work outside the listed tasks, whether requested
+    before or after approval. An email lists one task added before approval, while meeting notes describe that task as separate
+    from the original list.'
+- id: g086
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $2,586 under a written agreement requiring payment “within one cycle after confirmation.” {C} reads
+    the cycle as starting on the confirmation date. {R} reads it as the next full cycle after that date. An email records
+    confirmation near the end of a cycle, and an invoice dated in the following cycle gives no further explanation of when
+    the period began.'
+- id: g087
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $3,719 under a written agreement that prices a “complete set.” {C} reads the phrase as the three
+    items named in the list. {R} reads it as those items plus two attachments shown in a photograph of the original arrangement.
+    A later invoice names the three listed items but does not say whether the attachments are included.'
+- id: g088
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $4,263 under a written agreement that sets a price for each “completed stage.” {C} reads completed
+    as meaning that the stage’s listed tasks were delivered. {R} reads it as meaning the stage was reviewed and accepted.
+    Meeting notes list delivery on one date, and an email later records review without stating whether the stage was accepted.'
+- id: g089
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $5,824 for a second “round of changes” under a written agreement that includes one round. {C} counts
+    each separate email submission as a round. {R} counts all changes sent before a response as one round. Emails show two
+    submissions before one response, but the agreement does not define how a round is counted.'
+- id: g090
+  family: ambiguous_term
+  author: gpt-6-luna
+  text: '{C} says {R} owes $6,957 under a written agreement covering “full access.” {C} reads that phrase to require access
+    to every listed feature. {R} reads it to require access to the main feature, with supplementary features optional. An
+    email calls the main feature available, while photographs show the supplementary features present but do not describe
+    access to them.'
